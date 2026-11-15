@@ -32,8 +32,10 @@ sql/
 scripts/
   run_pipeline.py           builds every table, exports the marts, rebuilds the dashboard
   build_dashboard.py        embeds the exported CSVs into a static HTML dashboard
+  looker_link.py            Linking API URL: copies the Looker master template onto a client's marts
 dashboard/                  the dashboard (template + built page)
-docs/looker-studio.md       how to put the same marts into Looker Studio
+docs/looker-studio.md       how the Sheets-based Looker Studio version is wired
+docs/looker-template-spec.md  the Looker master template: aliases, fields, theme, exact layout
 ```
 
 Layers follow one rule: **raw is never edited, every table is derived by SQL from the layer
