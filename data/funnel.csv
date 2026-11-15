@@ -1,0 +1,22 @@
+device_category,channel_group,sessions,view_item,add_to_cart,begin_checkout,add_shipping_info,add_payment_info,purchase
+desktop,Direct,109786,18690,3361,1918,1917,1239,902
+desktop,Email,109,73,26,17,17,15,13
+desktop,Organic Search,56307,15061,2887,2418,2417,1389,928
+desktop,Other,801,112,19,15,15,5,2
+desktop,Paid Search,4513,1020,171,113,113,44,33
+desktop,Referral,4110,874,193,147,147,76,53
+desktop,Unknown (obfuscated),33316,8989,2133,1764,1764,1117,818
+mobile,Direct,75199,12808,2342,1404,1405,937,681
+mobile,Email,87,53,21,15,15,13,10
+mobile,Organic Search,38577,10262,2042,1710,1710,981,687
+mobile,Other,529,70,13,6,6,0,0
+mobile,Paid Search,3012,618,98,68,68,21,15
+mobile,Referral,2861,608,139,101,101,55,38
+mobile,Unknown (obfuscated),22920,6082,1422,1170,1170,771,564
+tablet,Direct,4208,698,130,80,80,55,37
+tablet,Email,4,4,1,1,1,1,1
+tablet,Organic Search,2149,569,103,85,85,45,29
+tablet,Other,31,4,1,2,2,1,0
+tablet,Paid Search,182,36,7,4,4,3,1
+tablet,Referral,135,35,7,2,2,1,0
+tablet,Unknown (obfuscated),1293,354,72,66,66,46,36

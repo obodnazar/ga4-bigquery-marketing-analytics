@@ -1,0 +1,10 @@
+check_order,check_name,failing,total
+1,"Events without ga_session_id (cannot be sessionised)",0,4295584
+2,"page_view events without page_location",0,1350428
+3,"Purchases with missing or (not set) transaction_id",906,5692
+4,"Transaction IDs recorded more than once (possible double-counted revenue)",326,4451
+5,"Purchases where order revenue differs from the sum of item revenue by > $0.01",1001,5692
+6,"Purchases with zero or missing revenue",450,5692
+7,"Events whose source is the site's own domain (self-referral: cross-domain not set up)",756057,1428080
+8,"Sessions whose source is hidden by obfuscation (<Other> / (data deleted))",57529,360129
+9,"Item rows with item_name (not set)",148458,3982732

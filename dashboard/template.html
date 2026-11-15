@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GA4 E-commerce Dashboard</title>
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,0.10);
+  --s1: #2a78d6; --s1-wash: rgba(42,120,214,0.10);
+  --good: #0ca30c; --warning: #fab219; --serious: #ec835a;
+  --track: #e8eef7;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+    --s1: #3987e5; --s1-wash: rgba(57,135,229,0.12); --track: #22303f;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #f0efec; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,0.10);
+  --s1: #3987e5; --s1-wash: rgba(57,135,229,0.12); --track: #22303f;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 24px 16px 48px; }
+header h1 { font-size: 22px; margin: 0 0 4px; font-weight: 650; }
+header p { margin: 0; color: var(--ink-2); max-width: 820px; }
+.filters { display: flex; gap: 12px; flex-wrap: wrap; margin: 20px 0 16px; align-items: end; }
+.filters label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--ink-2); }
+select { font: inherit; padding: 6px 10px; border-radius: 8px; border: 1px solid var(--axis);
+  background: var(--surface); color: var(--ink); min-width: 170px; }
+.note { font-size: 12px; color: var(--muted); }
+.kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 16px; min-width: 0; }
+.kpi .label { font-size: 12px; color: var(--ink-2); }
+.kpi .value { font-size: 24px; font-weight: 600; margin-top: 2px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 460px), 1fr)); gap: 12px; margin-top: 12px; }
+.card h2 { font-size: 15px; margin: 0 0 2px; font-weight: 600; }
+.card .sub { font-size: 12px; color: var(--muted); margin: 0 0 12px; }
+.chart { position: relative; width: 100%; }
+svg text { fill: var(--muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th, td { text-align: right; padding: 7px 8px; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child { text-align: left; }
+th { font-size: 12px; color: var(--ink-2); font-weight: 500; }
+.scroll { overflow-x: auto; }
+.share { display: inline-block; height: 8px; border-radius: 0 4px 4px 0; background: var(--s1); vertical-align: middle; margin-right: 6px; }
+.hbars .row { display: grid; grid-template-columns: minmax(90px, 38%) 1fr auto; gap: 10px; align-items: center; padding: 4px 0; }
+.hbars .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--ink-2); font-size: 13px; }
+.hbars .track { height: 16px; position: relative; }
+.hbars .bar { height: 16px; background: var(--s1); border-radius: 0 4px 4px 0; min-width: 2px; }
+.hbars .row:hover .bar, .hbars .row:focus .bar { filter: brightness(1.15); }
+.hbars .val { font-variant-numeric: tabular-nums; font-size: 13px; min-width: 64px; text-align: right; }
+.hbars .row { outline: none; }
+.hbars .row:focus-visible { box-shadow: 0 0 0 2px var(--s1); border-radius: 4px; }
+.cohort td { text-align: center; font-size: 12px; padding: 6px 4px; border-bottom: 2px solid var(--surface); border-right: 2px solid var(--surface); }
+.cohort th { text-align: center; }
+.cohort td:first-child, .cohort th:first-child { text-align: left; }
+.status { display: inline-flex; gap: 6px; align-items: center; }
+.dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.dq td:nth-child(2), .dq th:nth-child(2) { white-space: normal; text-align: left; }
+#tip { position: fixed; pointer-events: none; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--ring); border-radius: 8px; padding: 8px 10px; font-size: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12); display: none; z-index: 10; max-width: 260px; }
+#tip strong { display: block; font-size: 14px; }
+#tip span { color: var(--ink-2); }
+footer { margin-top: 24px; color: var(--ink-2); font-size: 13px; }
+footer li { margin: 4px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>GA4 e-commerce performance</h1>
+    <p>Google Merchandise Store, public obfuscated GA4 export, <span id="period"></span>.
+       Raw events → staging → sessions → marts in BigQuery, with data-quality checks before any number reaches a chart.</p>
+  </header>
+
+  <div class="filters">
+    <label>Device<select id="f-device"></select></label>
+    <label>Channel<select id="f-channel"></select></label>
+    <span class="note">Filters apply to KPIs, trends and the funnel. Products and cohorts show all traffic.</span>
+  </div>
+
+  <section class="kpis" id="kpis"></section>
+
+  <section class="grid2">
+    <div class="card"><h2>Daily sessions</h2><p class="sub">Sessions per day</p><div class="chart" id="c-sessions"></div></div>
+    <div class="card"><h2>Daily revenue</h2><p class="sub">Purchase revenue per day, USD</p><div class="chart" id="c-revenue"></div></div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <h2>Channels</h2><p class="sub">Session-scoped channel, first source/medium in the session. Respects the device filter.</p>
+    <div class="scroll"><table id="t-channels"></table></div>
+  </section>
+
+  <section class="grid2">
+    <div class="card"><h2>Checkout funnel</h2><p class="sub">Sessions that reached each step (open funnel), share of all sessions</p><div class="hbars" id="c-funnel"></div></div>
+    <div class="card"><h2>Top products by revenue</h2><p class="sub">Item revenue, USD, all traffic</p><div class="hbars" id="c-items"></div></div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <h2>Weekly retention</h2><p class="sub">Share of each first-week cohort active again in later weeks. Darker = higher.</p>
+    <div class="scroll"><table class="cohort" id="t-cohorts"></table></div>
+  </section>
+
+  <section class="card" style="margin-top:12px">
+    <h2>Data-quality checks</h2><p class="sub">Run on the raw export before building the marts</p>
+    <div class="scroll"><table class="dq" id="t-dq"></table></div>
+  </section>
+
+  <footer>
+    <strong>Method notes</strong>
+    <ul>
+      <li>Users are distinct counts, so they are pre-aggregated for each filter combination and never summed.</li>
+      <li>Channel attribution is simpler than GA4's last-non-direct model, so totals will not match the GA4 interface exactly.</li>
+      <li>The public sample hides some sources and IDs; those show up as "Unknown (obfuscated)" and in the checks above.</li>
+    </ul>
+  </footer>
+</div>
+<div id="tip" role="tooltip"></div>
+
+<script>
+const DATA = /*__DATA__*/;
+
+const $ = id => document.getElementById(id);
+const NS = "http://www.w3.org/2000/svg";
+const nf = new Intl.NumberFormat("en-US");
+const compact = new Intl.NumberFormat("en-US", { notation: "compact", maximumFractionDigits: 1 });
+const usd = v => "$" + (Math.abs(v) >= 10000 ? compact.format(v) : nf.format(Math.round(v)));
+const pct = (v, d = 1) => (isFinite(v) ? (v * 100).toFixed(d) + "%" : "–");
+const ALL = "All";
+const state = { device: ALL, channel: ALL };
+
+function svgEl(tag, attrs = {}, text) {
+  const n = document.createElementNS(NS, tag);
+  for (const [k, v] of Object.entries(attrs)) n.setAttribute(k, v);
+  if (text != null) n.textContent = text;
+  return n;
+}
+function el(tag, cls, text) {
+  const n = document.createElement(tag);
+  if (cls) n.className = cls;
+  if (text != null) n.textContent = text;
+  return n;
+}
+
+// ---- tooltip -------------------------------------------------------------
+const tip = $("tip");
+function showTip(evt, value, label) {
+  tip.replaceChildren(el("strong", null, value), el("span", null, label));
+  tip.style.display = "block";
+  const r = tip.getBoundingClientRect();
+  let x = evt.clientX + 14, y = evt.clientY + 14;
+  if (x + r.width > innerWidth - 8) x = evt.clientX - r.width - 14;
+  if (y + r.height > innerHeight - 8) y = evt.clientY - r.height - 14;
+  tip.style.left = x + "px"; tip.style.top = y + "px";
+}
+const hideTip = () => (tip.style.display = "none");
+
+// ---- filters -------------------------------------------------------------
+function uniq(rows, key) { return [...new Set(rows.map(r => r[key]))].sort(); }
+function fillSelect(sel, values, key) {
+  sel.replaceChildren(...[ALL, ...values].map(v => { const o = el("option", null, v); o.value = v; return o; }));
+  sel.addEventListener("change", () => { state[key] = sel.value; render(); });
+}
+const match = (r, useChannel = true) =>
+  (state.device === ALL || r.device_category === state.device) &&
+  (!useChannel || state.channel === ALL || r.channel_group === state.channel);
+
+function usersFor(device, channel) {
+  const d = device === ALL ? null : device, c = channel === ALL ? null : channel;
+  const row = DATA.users.find(u => (u.device_category || null) === d && (u.channel_group || null) === c);
+  return row ? row.users : NaN;
+}
+
+// ---- KPIs ----------------------------------------------------------------
+function renderKpis(rows) {
+  const t = rows.reduce((a, r) => {
+    a.s += r.sessions; a.e += r.engaged_sessions; a.tx += r.transactions; a.rev += r.revenue_usd; return a;
+  }, { s: 0, e: 0, tx: 0, rev: 0 });
+  const items = [
+    ["Sessions", compact.format(t.s)],
+    ["Users", compact.format(usersFor(state.device, state.channel))],
+    ["Engagement rate", pct(t.e / t.s)],
+    ["Transactions", nf.format(t.tx)],
+    ["Revenue", usd(t.rev)],
+    ["Transactions per session", pct(t.tx / t.s, 2)],
+    ["Avg order value", t.tx ? usd(t.rev / t.tx) : "–"],
+  ];
+  $("kpis").replaceChildren(...items.map(([l, v]) => {
+    const c = el("div", "card kpi"); c.append(el("div", "label", l), el("div", "value", v)); return c;
+  }));
+}
+
+// ---- line chart (single series, crosshair tooltip) -----------------------
+function niceMax(v) {
+  if (v <= 0) return 1;
+  const step = Math.pow(10, Math.floor(Math.log10(v / 4)));
+  for (const m of [1, 2, 2.5, 5, 10]) if (step * m * 4 >= v) return step * m * 4;
+  return v;
+}
+function lineChart(host, pts, fmt, label) {
+  host.replaceChildren();
+  const W = Math.max(host.clientWidth, 280), H = 220, m = { t: 14, r: 20, b: 26, l: 48 };
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const ymax = niceMax(Math.max(...pts.map(p => p.v), 0));
+  const x = i => m.l + (pts.length < 2 ? iw / 2 : (i / (pts.length - 1)) * iw);
+  const y = v => m.t + ih - (v / ymax) * ih;
+  const svg = svgEl("svg", { viewBox: `0 0 ${W} ${H}`, width: "100%", height: H, role: "img", "aria-label": label });
+
+  for (let k = 0; k <= 4; k++) {
+    const v = (ymax / 4) * k, yy = y(v);
+    svg.append(svgEl("line", { x1: m.l, x2: W - m.r, y1: yy, y2: yy, stroke: k ? "var(--grid)" : "var(--axis)", "stroke-width": 1 }));
+    svg.append(svgEl("text", { x: m.l - 8, y: yy + 4, "text-anchor": "end" }, fmt(v, true)));
+  }
+  pts.forEach((p, i) => {
+    if (p.d.endsWith("-01") || i === 0) {
+      const dt = new Date(p.d + "T00:00:00");
+      svg.append(svgEl("text", { x: x(i), y: H - 8, "text-anchor": i === 0 ? "start" : "middle" },
+        dt.toLocaleDateString("en-US", { month: "short", year: dt.getMonth() === 0 || i === 0 ? "numeric" : undefined })));
+    }
+  });
+  if (pts.length) {
+    const line = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join("");
+    svg.append(svgEl("path", { d: `${line}L${x(pts.length - 1)},${y(0)}L${x(0)},${y(0)}Z`, fill: "var(--s1-wash)" }));
+    svg.append(svgEl("path", { d: line, fill: "none", stroke: "var(--s1)", "stroke-width": 2, "stroke-linejoin": "round", "stroke-linecap": "round" }));
+  }
+  const cross = svgEl("line", { y1: m.t, y2: m.t + ih, stroke: "var(--axis)", "stroke-width": 1, visibility: "hidden" });
+  const dot = svgEl("circle", { r: 4, fill: "var(--s1)", stroke: "var(--surface)", "stroke-width": 2, visibility: "hidden" });
+  const hit = svgEl("rect", { x: m.l, y: m.t, width: iw, height: ih, fill: "transparent", tabindex: 0 });
+  svg.append(cross, dot, hit);
+
+  const at = i => {
+    const p = pts[i]; if (!p) return;
+    cross.setAttribute("x1", x(i)); cross.setAttribute("x2", x(i));
+    dot.setAttribute("cx", x(i)); dot.setAttribute("cy", y(p.v));
+    cross.setAttribute("visibility", "visible"); dot.setAttribute("visibility", "visible");
+    return p;
+  };
+  hit.addEventListener("pointermove", e => {
+    const r = svg.getBoundingClientRect(), sx = (e.clientX - r.left) * (W / r.width);
+    const i = Math.round(((sx - m.l) / iw) * (pts.length - 1));
+    const p = at(Math.max(0, Math.min(pts.length - 1, i)));
+    if (p) showTip(e, fmt(p.v), new Date(p.d + "T00:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" }));
+  });
+  hit.addEventListener("pointerleave", () => { hideTip(); cross.setAttribute("visibility", "hidden"); dot.setAttribute("visibility", "hidden"); });
+  host.append(svg);
+}
+
+function renderTrends(rows) {
+  const byDay = new Map();
+  for (const r of rows) {
+    const d = byDay.get(r.session_date) || { s: 0, rev: 0 };
+    d.s += r.sessions; d.rev += r.revenue_usd; byDay.set(r.session_date, d);
+  }
+  const days = [...byDay.keys()].sort();
+  lineChart($("c-sessions"), days.map(d => ({ d, v: byDay.get(d).s })), (v, axis) => axis ? compact.format(v) : nf.format(v) + " sessions", "Daily sessions");
+  lineChart($("c-revenue"), days.map(d => ({ d, v: byDay.get(d).rev })), (v, axis) => axis ? "$" + compact.format(v) : usd(v) + " revenue", "Daily revenue");
+}
+
+// ---- channel table -------------------------------------------------------
+function renderChannels() {
+  const rows = DATA.daily_channel.filter(r => match(r, false));
+  const by = new Map();
+  for (const r of rows) {
+    const c = by.get(r.channel_group) || { s: 0, e: 0, tx: 0, rev: 0 };
+    c.s += r.sessions; c.e += r.engaged_sessions; c.tx += r.transactions; c.rev += r.revenue_usd;
+    by.set(r.channel_group, c);
+  }
+  const total = [...by.values()].reduce((a, c) => a + c.s, 0);
+  const list = [...by.entries()].sort((a, b) => b[1].s - a[1].s);
+  const head = el("tr");
+  ["Channel", "Sessions", "Share", "Users", "Engagement", "Transactions", "Tx / session", "Revenue"].forEach(h => head.append(el("th", null, h)));
+  const body = list.map(([name, c]) => {
+    const tr = el("tr");
+    const share = el("td"); const bar = el("span", "share"); bar.style.width = Math.max(2, (c.s / total) * 80) + "px";
+    share.append(bar, document.createTextNode(pct(c.s / total)));
+    tr.append(el("td", null, name), el("td", null, nf.format(c.s)), share,
+      el("td", null, nf.format(usersFor(state.device, name))), el("td", null, pct(c.e / c.s)),
+      el("td", null, nf.format(c.tx)), el("td", null, pct(c.tx / c.s, 2)), el("td", null, usd(c.rev)));
+    if (state.channel !== ALL && name !== state.channel) tr.style.opacity = 0.45;
+    return tr;
+  });
+  $("t-channels").replaceChildren(head, ...body);
+}
+
+// ---- horizontal bars -----------------------------------------------------
+function hbars(host, rows) {
+  const max = Math.max(...rows.map(r => r.v), 0) || 1;
+  host.replaceChildren(...rows.map(r => {
+    const row = el("div", "row"); row.tabIndex = 0;
+    const track = el("div", "track"); const bar = el("div", "bar"); bar.style.width = (r.v / max) * 100 + "%";
+    track.append(bar);
+    const name = el("div", "name", r.name); name.title = r.name;
+    row.append(name, track, el("div", "val", r.shown));
+    const show = e => showTip(e.clientX ? e : { clientX: row.getBoundingClientRect().right - 40, clientY: row.getBoundingClientRect().top }, r.tip, r.name);
+    row.addEventListener("pointermove", show); row.addEventListener("focus", show);
+    row.addEventListener("pointerleave", hideTip); row.addEventListener("blur", hideTip);
+    row.setAttribute("aria-label", `${r.name}: ${r.tip}`);
+    return row;
+  }));
+}
+
+function renderFunnel() {
+  const steps = [["sessions", "Session"], ["view_item", "Viewed item"], ["add_to_cart", "Added to cart"],
+    ["begin_checkout", "Began checkout"], ["add_shipping_info", "Shipping info"], ["add_payment_info", "Payment info"], ["purchase", "Purchased"]];
+  const t = Object.fromEntries(steps.map(([k]) => [k, 0]));
+  DATA.funnel.filter(r => match(r)).forEach(r => steps.forEach(([k]) => (t[k] += r[k])));
+  hbars($("c-funnel"), steps.map(([k, name], i) => {
+    const prev = i ? t[steps[i - 1][0]] : t.sessions;
+    return { name, v: t[k], shown: pct(t[k] / t.sessions),
+      tip: `${nf.format(t[k])} sessions · ${i ? pct(t[k] / prev) + " of previous step" : "100%"}` };
+  }));
+}
+
+function renderItems() {
+  hbars($("c-items"), DATA.items.slice(0, 10).map(r => ({
+    name: r.item_name, v: r.item_revenue_usd, shown: usd(r.item_revenue_usd),
+    tip: `${usd(r.item_revenue_usd)} · ${nf.format(r.units_purchased)} units · ${pct(r.add_to_carts / r.item_views)} view→cart`,
+  })));
+}
+
+// ---- cohort heatmap (sequential blue) ------------------------------------
+const RAMP = ["#cde2fb", "#b7d3f6", "#9ec5f4", "#86b6ef", "#6da7ec", "#5598e7", "#3987e5", "#2a78d6", "#256abf", "#1c5cab", "#184f95", "#104281", "#0d366b"];
+function renderCohorts() {
+  const weeks = 8;
+  const by = new Map();
+  DATA.cohorts.forEach(r => { if (!by.has(r.cohort_week)) by.set(r.cohort_week, []); by.get(r.cohort_week)[r.week_number] = r.active_users; });
+  const vals = [];
+  by.forEach(a => { for (let w = 1; w <= weeks; w++) if (a[w] != null) vals.push(a[w] / a[0]); });
+  const vmax = Math.max(...vals, 0.0001);
+  const head = el("tr"); head.append(el("th", null, "Cohort (week of)"), el("th", null, "Users"));
+  for (let w = 1; w <= weeks; w++) head.append(el("th", null, "W" + w));
+  const rows = [...by.entries()].sort().map(([wk, a]) => {
+    const tr = el("tr"); tr.append(el("td", null, wk), el("td", null, nf.format(a[0] || 0)));
+    for (let w = 1; w <= weeks; w++) {
+      const td = el("td");
+      if (a[w] != null && a[0]) {
+        const share = a[w] / a[0], step = Math.min(RAMP.length - 1, Math.floor((share / vmax) * (RAMP.length - 1)));
+        td.style.background = RAMP[step]; td.style.color = step >= 6 ? "#ffffff" : "#0b0b0b";
+        td.textContent = pct(share);
+        td.addEventListener("pointermove", e => showTip(e, pct(share), `${nf.format(a[w])} of ${nf.format(a[0])} users · cohort ${wk}, week ${w}`));
+        td.addEventListener("pointerleave", hideTip);
+      }
+      tr.append(td);
+    }
+    return tr;
+  });
+  $("t-cohorts").replaceChildren(head, ...rows);
+}
+
+// ---- data-quality table --------------------------------------------------
+function renderDq() {
+  const head = el("tr"); ["#", "Check", "Failing", "Out of", "Share", "Status"].forEach(h => head.append(el("th", null, h)));
+  const rows = DATA.dq_checks.map(r => {
+    const share = r.total ? r.failing / r.total : 0;
+    const [color, text] = r.failing === 0 ? ["var(--good)", "✓ Pass"] : share < 0.01 ? ["var(--warning)", "! Minor"] : ["var(--serious)", "!! Review"];
+    const st = el("span", "status"); const d = el("span", "dot"); d.style.background = color;
+    st.append(d, document.createTextNode(text));
+    const tr = el("tr"); const tdS = el("td"); tdS.append(st);
+    tr.append(el("td", null, r.check_order), el("td", null, r.check_name), el("td", null, nf.format(r.failing)),
+      el("td", null, nf.format(r.total)), el("td", null, pct(share, 2)), tdS);
+    return tr;
+  });
+  $("t-dq").replaceChildren(head, ...rows);
+}
+
+function render() {
+  const rows = DATA.daily_channel.filter(r => match(r));
+  renderKpis(rows); renderTrends(rows); renderChannels(); renderFunnel();
+}
+
+const dates = uniq(DATA.daily_channel, "session_date");
+const fmtD = d => new Date(d + "T00:00:00").toLocaleDateString("en-US", { day: "numeric", month: "short", year: "numeric" });
+$("period").textContent = dates.length ? `${fmtD(dates[0])} – ${fmtD(dates[dates.length - 1])}` : "";
+fillSelect($("f-device"), uniq(DATA.daily_channel, "device_category"), "device");
+fillSelect($("f-channel"), uniq(DATA.daily_channel, "channel_group"), "channel");
+render(); renderItems(); renderCohorts(); renderDq();
+let rt; addEventListener("resize", () => { clearTimeout(rt); rt = setTimeout(render, 150); });
+</script>
+</body>
+</html>

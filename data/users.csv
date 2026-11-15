@@ -1,0 +1,33 @@
+channel_group,device_category,users
+,,270154
+Unknown (obfuscated),,51226
+,desktop,158917
+Unknown (obfuscated),desktop,29906
+,mobile,109195
+Unknown (obfuscated),mobile,20656
+,tablet,6250
+Unknown (obfuscated),tablet,1179
+Direct,,151686
+Direct,desktop,89018
+Direct,mobile,61032
+Direct,tablet,3449
+Other,,1063
+Other,desktop,621
+Email,,178
+Email,mobile,76
+Other,mobile,424
+Organic Search,,86237
+Organic Search,desktop,50467
+Organic Search,mobile,34693
+Organic Search,tablet,1974
+Referral,,5773
+Referral,desktop,3362
+Referral,mobile,2346
+Referral,tablet,111
+Paid Search,,7681
+Paid Search,desktop,4496
+Paid Search,mobile,3004
+Paid Search,tablet,182
+Other,tablet,23
+Email,desktop,99
+Email,tablet,3

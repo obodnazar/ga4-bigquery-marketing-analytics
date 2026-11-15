@@ -1,0 +1,1556 @@
+session_date,channel_group,device_category,sessions,engaged_sessions,transactions,revenue_usd
+2020-11-01,Direct,desktop,891,729,3,270.0
+2020-11-01,Direct,mobile,620,506,2,59.0
+2020-11-01,Direct,tablet,23,21,0,0.0
+2020-11-01,Organic Search,desktop,328,309,3,129.0
+2020-11-01,Organic Search,mobile,205,180,2,114.0
+2020-11-01,Organic Search,tablet,12,10,0,0.0
+2020-11-01,Paid Search,desktop,41,39,0,0.0
+2020-11-01,Paid Search,mobile,20,18,0,0.0
+2020-11-01,Referral,desktop,12,9,0,0.0
+2020-11-01,Referral,mobile,10,7,0,0.0
+2020-11-01,Referral,tablet,2,1,0,0.0
+2020-11-01,Unknown (obfuscated),desktop,255,232,3,167.0
+2020-11-01,Unknown (obfuscated),mobile,190,179,1,34.0
+2020-11-01,Unknown (obfuscated),tablet,13,12,0,0.0
+2020-11-01,Other,desktop,1,1,0,0.0
+2020-11-01,Other,mobile,2,1,0,0.0
+2020-11-02,Direct,desktop,1174,939,14,2063.0
+2020-11-02,Direct,mobile,812,653,8,639.0
+2020-11-02,Direct,tablet,31,28,0,0.0
+2020-11-02,Email,mobile,2,1,0,0.0
+2020-11-02,Organic Search,desktop,456,412,6,519.0
+2020-11-02,Organic Search,mobile,328,300,5,313.0
+2020-11-02,Organic Search,tablet,21,19,0,0.0
+2020-11-02,Paid Search,desktop,48,47,0,0.0
+2020-11-02,Paid Search,mobile,47,46,0,0.0
+2020-11-02,Paid Search,tablet,5,5,0,0.0
+2020-11-02,Referral,desktop,32,25,0,0.0
+2020-11-02,Referral,mobile,34,19,0,0.0
+2020-11-02,Referral,tablet,2,2,0,0.0
+2020-11-02,Unknown (obfuscated),desktop,443,398,11,746.0
+2020-11-02,Unknown (obfuscated),mobile,273,227,4,453.0
+2020-11-02,Unknown (obfuscated),tablet,12,12,1,56.0
+2020-11-02,Other,desktop,2,1,0,0.0
+2020-11-02,Other,mobile,4,3,0,0.0
+2020-11-03,Direct,desktop,1976,1641,7,143.0
+2020-11-03,Direct,mobile,1390,1138,9,506.0
+2020-11-03,Direct,tablet,73,67,0,0.0
+2020-11-03,Organic Search,desktop,539,491,13,1074.0
+2020-11-03,Organic Search,mobile,352,323,4,391.0
+2020-11-03,Organic Search,tablet,17,15,0,0.0
+2020-11-03,Paid Search,desktop,67,66,1,50.0
+2020-11-03,Paid Search,mobile,44,43,0,0.0
+2020-11-03,Referral,desktop,48,38,0,0.0
+2020-11-03,Referral,mobile,25,17,0,0.0
+2020-11-03,Referral,tablet,3,1,0,0.0
+2020-11-03,Unknown (obfuscated),desktop,462,407,10,812.0
+2020-11-03,Unknown (obfuscated),mobile,328,280,7,521.0
+2020-11-03,Unknown (obfuscated),tablet,17,17,0,0.0
+2020-11-03,Other,desktop,3,2,0,0.0
+2020-11-03,Other,mobile,3,3,0,0.0
+2020-11-04,Direct,desktop,1438,1107,10,474.0
+2020-11-04,Direct,mobile,920,734,6,168.0
+2020-11-04,Direct,tablet,59,47,1,22.0
+2020-11-04,Organic Search,desktop,513,470,4,317.0
+2020-11-04,Organic Search,mobile,386,350,2,251.0
+2020-11-04,Organic Search,tablet,33,30,0,0.0
+2020-11-04,Paid Search,desktop,54,54,0,0.0
+2020-11-04,Paid Search,mobile,34,34,0,0.0
+2020-11-04,Paid Search,tablet,4,4,0,0.0
+2020-11-04,Referral,desktop,45,38,0,0.0
+2020-11-04,Referral,mobile,33,28,0,0.0
+2020-11-04,Referral,tablet,2,2,0,0.0
+2020-11-04,Unknown (obfuscated),desktop,461,414,18,577.0
+2020-11-04,Unknown (obfuscated),mobile,311,275,3,204.0
+2020-11-04,Unknown (obfuscated),tablet,18,15,0,0.0
+2020-11-04,Other,desktop,12,12,0,0.0
+2020-11-04,Other,mobile,2,2,0,0.0
+2020-11-05,Direct,desktop,1105,851,4,316.0
+2020-11-05,Direct,mobile,815,630,4,447.0
+2020-11-05,Direct,tablet,47,35,1,120.0
+2020-11-05,Email,mobile,1,1,0,0.0
+2020-11-05,Organic Search,desktop,550,511,4,287.0
+2020-11-05,Organic Search,mobile,384,349,1,70.0
+2020-11-05,Organic Search,tablet,15,14,0,0.0
+2020-11-05,Paid Search,desktop,55,54,1,87.0
+2020-11-05,Paid Search,mobile,44,43,0,0.0
+2020-11-05,Paid Search,tablet,2,2,0,0.0
+2020-11-05,Referral,desktop,32,26,0,0.0
+2020-11-05,Referral,mobile,24,16,0,0.0
+2020-11-05,Referral,tablet,1,1,0,0.0
+2020-11-05,Unknown (obfuscated),desktop,429,371,7,285.0
+2020-11-05,Unknown (obfuscated),mobile,296,253,4,180.0
+2020-11-05,Unknown (obfuscated),tablet,26,22,0,0.0
+2020-11-05,Other,desktop,6,4,0,0.0
+2020-11-05,Other,mobile,8,7,0,0.0
+2020-11-06,Direct,desktop,938,697,12,979.0
+2020-11-06,Direct,mobile,654,489,15,653.0
+2020-11-06,Direct,tablet,39,29,1,32.0
+2020-11-06,Organic Search,desktop,483,448,9,484.0
+2020-11-06,Organic Search,mobile,322,298,7,353.0
+2020-11-06,Organic Search,tablet,22,18,2,231.0
+2020-11-06,Paid Search,desktop,60,59,0,0.0
+2020-11-06,Paid Search,mobile,35,31,0,0.0
+2020-11-06,Referral,desktop,40,26,1,59.0
+2020-11-06,Referral,mobile,28,22,1,39.0
+2020-11-06,Referral,tablet,1,1,0,0.0
+2020-11-06,Unknown (obfuscated),desktop,381,322,6,314.0
+2020-11-06,Unknown (obfuscated),mobile,281,248,4,294.0
+2020-11-06,Unknown (obfuscated),tablet,15,15,0,0.0
+2020-11-06,Other,desktop,16,14,0,0.0
+2020-11-06,Other,mobile,4,3,0,0.0
+2020-11-07,Direct,desktop,637,493,5,473.0
+2020-11-07,Direct,mobile,494,382,2,60.0
+2020-11-07,Direct,tablet,31,23,0,0.0
+2020-11-07,Organic Search,desktop,315,288,8,356.0
+2020-11-07,Organic Search,mobile,214,201,9,1157.0
+2020-11-07,Organic Search,tablet,13,12,0,0.0
+2020-11-07,Paid Search,desktop,41,41,0,0.0
+2020-11-07,Paid Search,mobile,32,30,0,0.0
+2020-11-07,Paid Search,tablet,2,2,0,0.0
+2020-11-07,Referral,desktop,19,16,0,0.0
+2020-11-07,Referral,mobile,17,12,0,0.0
+2020-11-07,Referral,tablet,1,1,0,0.0
+2020-11-07,Unknown (obfuscated),desktop,260,228,4,234.0
+2020-11-07,Unknown (obfuscated),mobile,183,169,3,251.0
+2020-11-07,Unknown (obfuscated),tablet,2,2,0,0.0
+2020-11-07,Other,desktop,6,6,0,0.0
+2020-11-07,Other,mobile,4,2,0,0.0
+2020-11-08,Direct,desktop,647,516,3,1183.0
+2020-11-08,Direct,mobile,421,330,6,472.0
+2020-11-08,Direct,tablet,27,21,0,0.0
+2020-11-08,Organic Search,desktop,293,274,7,919.0
+2020-11-08,Organic Search,mobile,204,190,5,201.0
+2020-11-08,Organic Search,tablet,5,5,0,0.0
+2020-11-08,Paid Search,desktop,38,36,0,0.0
+2020-11-08,Paid Search,mobile,19,19,0,0.0
+2020-11-08,Referral,desktop,25,18,0,0.0
+2020-11-08,Referral,mobile,21,15,0,0.0
+2020-11-08,Referral,tablet,1,1,0,0.0
+2020-11-08,Unknown (obfuscated),desktop,271,250,5,582.0
+2020-11-08,Unknown (obfuscated),mobile,175,158,4,219.0
+2020-11-08,Unknown (obfuscated),tablet,10,10,2,184.0
+2020-11-08,Other,desktop,3,3,0,0.0
+2020-11-08,Other,mobile,3,3,0,0.0
+2020-11-09,Direct,desktop,958,727,7,219.0
+2020-11-09,Direct,mobile,665,501,8,325.0
+2020-11-09,Direct,tablet,49,31,0,0.0
+2020-11-09,Organic Search,desktop,489,438,14,552.0
+2020-11-09,Organic Search,mobile,322,289,7,257.0
+2020-11-09,Organic Search,tablet,26,24,0,0.0
+2020-11-09,Paid Search,desktop,50,50,0,0.0
+2020-11-09,Paid Search,mobile,22,22,0,0.0
+2020-11-09,Paid Search,tablet,2,2,0,0.0
+2020-11-09,Referral,desktop,39,30,0,0.0
+2020-11-09,Referral,mobile,27,20,0,0.0
+2020-11-09,Referral,tablet,4,1,0,0.0
+2020-11-09,Unknown (obfuscated),desktop,355,329,9,408.0
+2020-11-09,Unknown (obfuscated),mobile,232,214,8,420.0
+2020-11-09,Unknown (obfuscated),tablet,10,9,0,0.0
+2020-11-09,Other,desktop,13,6,0,0.0
+2020-11-09,Other,mobile,6,4,0,0.0
+2020-11-09,Other,tablet,2,2,0,0.0
+2020-11-10,Direct,desktop,1086,825,11,598.0
+2020-11-10,Direct,mobile,742,570,8,366.0
+2020-11-10,Direct,tablet,23,18,0,0.0
+2020-11-10,Organic Search,desktop,564,496,12,636.0
+2020-11-10,Organic Search,mobile,420,383,14,1068.0
+2020-11-10,Organic Search,tablet,21,17,0,0.0
+2020-11-10,Paid Search,desktop,59,59,0,0.0
+2020-11-10,Paid Search,mobile,40,38,0,0.0
+2020-11-10,Paid Search,tablet,2,2,0,0.0
+2020-11-10,Referral,desktop,43,29,1,18.0
+2020-11-10,Referral,mobile,44,32,1,31.0
+2020-11-10,Referral,tablet,2,2,0,0.0
+2020-11-10,Unknown (obfuscated),desktop,435,395,10,1078.0
+2020-11-10,Unknown (obfuscated),mobile,308,280,6,219.0
+2020-11-10,Unknown (obfuscated),tablet,20,17,0,0.0
+2020-11-10,Other,desktop,10,7,0,0.0
+2020-11-10,Other,mobile,4,3,0,0.0
+2020-11-10,Other,tablet,1,0,0,0.0
+2020-11-11,Direct,desktop,1107,834,14,797.0
+2020-11-11,Direct,mobile,732,572,11,1783.0
+2020-11-11,Direct,tablet,42,33,0,0.0
+2020-11-11,Organic Search,desktop,594,531,8,308.0
+2020-11-11,Organic Search,mobile,394,360,10,581.0
+2020-11-11,Organic Search,tablet,27,22,0,0.0
+2020-11-11,Paid Search,desktop,67,65,1,17.0
+2020-11-11,Paid Search,mobile,50,50,0,0.0
+2020-11-11,Paid Search,tablet,4,4,0,0.0
+2020-11-11,Referral,desktop,44,34,1,64.0
+2020-11-11,Referral,mobile,33,26,1,32.0
+2020-11-11,Referral,tablet,1,1,0,0.0
+2020-11-11,Unknown (obfuscated),desktop,398,365,13,698.0
+2020-11-11,Unknown (obfuscated),mobile,274,252,4,138.0
+2020-11-11,Unknown (obfuscated),tablet,20,19,1,10.0
+2020-11-11,Other,desktop,17,12,0,0.0
+2020-11-11,Other,mobile,5,3,0,0.0
+2020-11-12,Direct,desktop,1091,844,8,622.0
+2020-11-12,Direct,mobile,718,545,10,678.0
+2020-11-12,Direct,tablet,28,23,0,0.0
+2020-11-12,Organic Search,desktop,565,496,9,467.0
+2020-11-12,Organic Search,mobile,385,347,8,480.0
+2020-11-12,Organic Search,tablet,14,11,0,0.0
+2020-11-12,Paid Search,desktop,47,46,0,0.0
+2020-11-12,Paid Search,mobile,32,31,0,0.0
+2020-11-12,Paid Search,tablet,3,3,0,0.0
+2020-11-12,Referral,desktop,48,35,1,46.0
+2020-11-12,Referral,mobile,36,27,2,127.0
+2020-11-12,Unknown (obfuscated),desktop,399,361,12,659.0
+2020-11-12,Unknown (obfuscated),mobile,290,259,4,270.0
+2020-11-12,Unknown (obfuscated),tablet,18,17,0,0.0
+2020-11-12,Other,desktop,12,9,0,0.0
+2020-11-12,Other,mobile,7,5,0,0.0
+2020-11-13,Direct,desktop,1016,767,21,1144.0
+2020-11-13,Direct,mobile,650,512,7,1531.0
+2020-11-13,Direct,tablet,35,26,0,0.0
+2020-11-13,Organic Search,desktop,470,440,24,1253.0
+2020-11-13,Organic Search,mobile,341,315,11,824.0
+2020-11-13,Organic Search,tablet,26,25,0,0.0
+2020-11-13,Paid Search,desktop,52,52,0,0.0
+2020-11-13,Paid Search,mobile,31,31,0,0.0
+2020-11-13,Paid Search,tablet,5,5,0,0.0
+2020-11-13,Referral,desktop,45,38,1,55.0
+2020-11-13,Referral,mobile,24,18,0,0.0
+2020-11-13,Referral,tablet,3,3,0,0.0
+2020-11-13,Unknown (obfuscated),desktop,356,324,8,751.0
+2020-11-13,Unknown (obfuscated),mobile,255,235,7,273.0
+2020-11-13,Unknown (obfuscated),tablet,18,18,0,0.0
+2020-11-13,Other,desktop,9,5,0,0.0
+2020-11-13,Other,mobile,2,1,0,0.0
+2020-11-14,Direct,desktop,666,536,2,106.0
+2020-11-14,Direct,mobile,485,381,6,372.0
+2020-11-14,Direct,tablet,24,19,0,0.0
+2020-11-14,Organic Search,desktop,355,336,6,383.0
+2020-11-14,Organic Search,mobile,245,227,4,344.0
+2020-11-14,Organic Search,tablet,15,15,0,0.0
+2020-11-14,Paid Search,desktop,30,29,0,0.0
+2020-11-14,Paid Search,mobile,27,27,0,0.0
+2020-11-14,Paid Search,tablet,2,2,0,0.0
+2020-11-14,Referral,desktop,30,22,1,40.0
+2020-11-14,Referral,mobile,10,7,0,0.0
+2020-11-14,Unknown (obfuscated),desktop,264,241,9,953.0
+2020-11-14,Unknown (obfuscated),mobile,181,165,2,140.0
+2020-11-14,Unknown (obfuscated),tablet,13,11,0,0.0
+2020-11-14,Other,desktop,10,5,0,0.0
+2020-11-14,Other,mobile,2,1,0,0.0
+2020-11-14,Other,tablet,1,1,0,0.0
+2020-11-15,Direct,desktop,668,525,2,96.0
+2020-11-15,Direct,mobile,449,363,2,120.0
+2020-11-15,Direct,tablet,28,20,1,174.0
+2020-11-15,Organic Search,desktop,301,261,6,556.0
+2020-11-15,Organic Search,mobile,255,231,3,106.0
+2020-11-15,Organic Search,tablet,9,9,0,0.0
+2020-11-15,Paid Search,desktop,30,30,1,129.0
+2020-11-15,Paid Search,mobile,27,26,0,0.0
+2020-11-15,Referral,desktop,21,15,0,0.0
+2020-11-15,Referral,mobile,12,9,0,0.0
+2020-11-15,Unknown (obfuscated),desktop,247,222,5,247.0
+2020-11-15,Unknown (obfuscated),mobile,147,133,3,125.0
+2020-11-15,Unknown (obfuscated),tablet,9,7,0,0.0
+2020-11-15,Other,desktop,6,5,0,0.0
+2020-11-15,Other,mobile,4,4,0,0.0
+2020-11-16,Direct,desktop,981,760,8,468.0
+2020-11-16,Direct,mobile,719,569,6,367.0
+2020-11-16,Direct,tablet,38,28,0,0.0
+2020-11-16,Organic Search,desktop,555,511,17,1090.0
+2020-11-16,Organic Search,mobile,357,322,13,1586.0
+2020-11-16,Organic Search,tablet,18,18,0,0.0
+2020-11-16,Paid Search,desktop,55,54,0,0.0
+2020-11-16,Paid Search,mobile,38,38,1,38.0
+2020-11-16,Paid Search,tablet,1,1,0,0.0
+2020-11-16,Referral,desktop,31,28,1,13.0
+2020-11-16,Referral,mobile,20,14,0,0.0
+2020-11-16,Unknown (obfuscated),desktop,414,374,10,791.0
+2020-11-16,Unknown (obfuscated),mobile,278,256,8,527.0
+2020-11-16,Unknown (obfuscated),tablet,17,15,3,96.0
+2020-11-16,Other,desktop,7,6,0,0.0
+2020-11-16,Other,mobile,3,3,0,0.0
+2020-11-17,Direct,desktop,1119,855,20,1506.0
+2020-11-17,Direct,mobile,850,662,12,816.0
+2020-11-17,Direct,tablet,37,30,0,0.0
+2020-11-17,Organic Search,desktop,602,564,22,1341.0
+2020-11-17,Organic Search,mobile,422,385,19,1177.0
+2020-11-17,Organic Search,tablet,21,20,0,0.0
+2020-11-17,Paid Search,desktop,45,45,0,0.0
+2020-11-17,Paid Search,mobile,34,33,0,0.0
+2020-11-17,Paid Search,tablet,4,4,0,0.0
+2020-11-17,Referral,desktop,64,47,1,24.0
+2020-11-17,Referral,mobile,30,20,1,28.0
+2020-11-17,Referral,tablet,1,1,0,0.0
+2020-11-17,Unknown (obfuscated),desktop,463,407,13,956.0
+2020-11-17,Unknown (obfuscated),mobile,342,301,10,379.0
+2020-11-17,Unknown (obfuscated),tablet,16,13,0,0.0
+2020-11-17,Other,desktop,3,2,0,0.0
+2020-11-17,Other,mobile,8,5,0,0.0
+2020-11-17,Other,tablet,2,0,0,0.0
+2020-11-18,Direct,desktop,1207,921,15,956.0
+2020-11-18,Direct,mobile,855,657,9,916.0
+2020-11-18,Direct,tablet,60,40,0,0.0
+2020-11-18,Organic Search,desktop,646,580,12,673.0
+2020-11-18,Organic Search,mobile,441,409,14,791.0
+2020-11-18,Organic Search,tablet,22,20,0,0.0
+2020-11-18,Paid Search,desktop,53,50,0,0.0
+2020-11-18,Paid Search,mobile,42,42,0,0.0
+2020-11-18,Paid Search,tablet,1,1,0,0.0
+2020-11-18,Referral,desktop,53,32,2,48.0
+2020-11-18,Referral,mobile,31,20,0,0.0
+2020-11-18,Unknown (obfuscated),desktop,391,361,7,822.0
+2020-11-18,Unknown (obfuscated),mobile,288,269,9,369.0
+2020-11-18,Unknown (obfuscated),tablet,14,12,0,0.0
+2020-11-18,Other,desktop,13,10,0,0.0
+2020-11-18,Other,mobile,8,7,0,0.0
+2020-11-18,Other,tablet,1,1,0,0.0
+2020-11-19,Direct,desktop,1280,986,14,790.0
+2020-11-19,Direct,mobile,792,624,6,526.0
+2020-11-19,Direct,tablet,48,43,0,0.0
+2020-11-19,Organic Search,desktop,683,600,18,1427.0
+2020-11-19,Organic Search,mobile,426,380,21,1841.0
+2020-11-19,Organic Search,tablet,24,22,0,0.0
+2020-11-19,Paid Search,desktop,53,52,0,0.0
+2020-11-19,Paid Search,mobile,34,33,0,0.0
+2020-11-19,Paid Search,tablet,4,4,0,0.0
+2020-11-19,Referral,desktop,50,34,2,264.0
+2020-11-19,Referral,mobile,29,20,3,202.0
+2020-11-19,Unknown (obfuscated),desktop,433,397,15,686.0
+2020-11-19,Unknown (obfuscated),mobile,294,263,11,932.0
+2020-11-19,Unknown (obfuscated),tablet,20,18,0,0.0
+2020-11-19,Other,desktop,14,10,0,0.0
+2020-11-19,Other,mobile,5,3,0,0.0
+2020-11-20,Direct,desktop,1188,934,19,1542.0
+2020-11-20,Direct,mobile,854,654,24,2418.0
+2020-11-20,Direct,tablet,43,32,0,0.0
+2020-11-20,Organic Search,desktop,619,559,17,946.0
+2020-11-20,Organic Search,mobile,448,400,19,1056.0
+2020-11-20,Organic Search,tablet,24,21,0,0.0
+2020-11-20,Paid Search,desktop,53,53,0,0.0
+2020-11-20,Paid Search,mobile,48,47,1,0.0
+2020-11-20,Paid Search,tablet,1,0,0,0.0
+2020-11-20,Referral,desktop,58,42,2,116.0
+2020-11-20,Referral,mobile,31,22,4,262.0
+2020-11-20,Unknown (obfuscated),desktop,426,373,17,1260.0
+2020-11-20,Unknown (obfuscated),mobile,306,278,11,574.0
+2020-11-20,Unknown (obfuscated),tablet,11,11,0,0.0
+2020-11-20,Other,desktop,9,7,0,0.0
+2020-11-20,Other,mobile,8,7,0,0.0
+2020-11-21,Direct,desktop,1000,778,8,390.0
+2020-11-21,Direct,mobile,647,518,4,154.0
+2020-11-21,Direct,tablet,39,33,0,0.0
+2020-11-21,Organic Search,desktop,446,408,10,1518.0
+2020-11-21,Organic Search,mobile,320,286,9,240.0
+2020-11-21,Organic Search,tablet,19,17,4,366.0
+2020-11-21,Paid Search,desktop,48,47,0,0.0
+2020-11-21,Paid Search,mobile,35,35,2,66.0
+2020-11-21,Paid Search,tablet,2,2,0,0.0
+2020-11-21,Referral,desktop,24,20,2,78.0
+2020-11-21,Referral,mobile,13,11,0,0.0
+2020-11-21,Referral,tablet,2,2,0,0.0
+2020-11-21,Unknown (obfuscated),desktop,334,303,15,710.0
+2020-11-21,Unknown (obfuscated),mobile,234,218,12,516.0
+2020-11-21,Unknown (obfuscated),tablet,16,14,0,0.0
+2020-11-21,Other,desktop,7,4,0,0.0
+2020-11-21,Other,mobile,4,4,0,0.0
+2020-11-22,Direct,desktop,857,682,6,222.0
+2020-11-22,Direct,mobile,518,439,12,788.0
+2020-11-22,Direct,tablet,24,18,0,0.0
+2020-11-22,Organic Search,desktop,425,384,16,758.0
+2020-11-22,Organic Search,mobile,255,230,12,608.0
+2020-11-22,Organic Search,tablet,17,15,0,0.0
+2020-11-22,Paid Search,desktop,41,39,0,0.0
+2020-11-22,Paid Search,mobile,23,23,0,0.0
+2020-11-22,Paid Search,tablet,2,2,0,0.0
+2020-11-22,Referral,desktop,25,18,0,0.0
+2020-11-22,Referral,mobile,16,8,0,0.0
+2020-11-22,Referral,tablet,1,1,0,0.0
+2020-11-22,Unknown (obfuscated),desktop,283,256,9,984.0
+2020-11-22,Unknown (obfuscated),mobile,176,156,5,68.0
+2020-11-22,Unknown (obfuscated),tablet,17,17,0,0.0
+2020-11-22,Other,desktop,5,3,0,0.0
+2020-11-22,Other,mobile,2,2,0,0.0
+2020-11-23,Direct,desktop,1158,918,19,868.0
+2020-11-23,Direct,mobile,841,669,22,1658.0
+2020-11-23,Direct,tablet,50,45,2,386.0
+2020-11-23,Organic Search,desktop,592,529,22,950.0
+2020-11-23,Organic Search,mobile,420,378,24,1192.0
+2020-11-23,Organic Search,tablet,23,20,3,344.0
+2020-11-23,Paid Search,desktop,56,53,0,0.0
+2020-11-23,Paid Search,mobile,31,30,0,0.0
+2020-11-23,Referral,desktop,38,30,0,0.0
+2020-11-23,Referral,mobile,36,29,2,160.0
+2020-11-23,Unknown (obfuscated),desktop,428,390,34,2256.0
+2020-11-23,Unknown (obfuscated),mobile,265,240,15,1002.0
+2020-11-23,Unknown (obfuscated),tablet,14,13,2,48.0
+2020-11-23,Other,desktop,5,4,0,0.0
+2020-11-23,Other,mobile,3,3,0,0.0
+2020-11-24,Direct,desktop,1323,1039,25,1466.0
+2020-11-24,Direct,mobile,855,662,22,1220.0
+2020-11-24,Direct,tablet,48,38,0,0.0
+2020-11-24,Organic Search,desktop,677,608,35,2238.0
+2020-11-24,Organic Search,mobile,484,433,20,1356.0
+2020-11-24,Organic Search,tablet,19,18,1,60.0
+2020-11-24,Paid Search,desktop,61,60,0,0.0
+2020-11-24,Paid Search,mobile,43,41,0,0.0
+2020-11-24,Paid Search,tablet,2,2,0,0.0
+2020-11-24,Referral,desktop,53,36,0,0.0
+2020-11-24,Referral,mobile,14,8,0,0.0
+2020-11-24,Unknown (obfuscated),desktop,460,411,23,2012.0
+2020-11-24,Unknown (obfuscated),mobile,349,307,19,1745.0
+2020-11-24,Unknown (obfuscated),tablet,21,20,0,0.0
+2020-11-24,Other,desktop,11,8,0,0.0
+2020-11-24,Other,mobile,2,1,0,0.0
+2020-11-25,Direct,desktop,1477,1213,32,2482.0
+2020-11-25,Direct,mobile,981,780,23,1962.0
+2020-11-25,Direct,tablet,53,46,1,61.0
+2020-11-25,Organic Search,desktop,645,571,27,1493.0
+2020-11-25,Organic Search,mobile,417,379,8,1173.0
+2020-11-25,Organic Search,tablet,22,20,0,0.0
+2020-11-25,Paid Search,desktop,68,66,0,0.0
+2020-11-25,Paid Search,mobile,47,46,1,26.0
+2020-11-25,Paid Search,tablet,2,2,0,0.0
+2020-11-25,Referral,desktop,38,29,0,0.0
+2020-11-25,Referral,mobile,26,19,0,0.0
+2020-11-25,Referral,tablet,2,2,0,0.0
+2020-11-25,Unknown (obfuscated),desktop,455,408,8,542.0
+2020-11-25,Unknown (obfuscated),mobile,347,305,8,355.0
+2020-11-25,Unknown (obfuscated),tablet,16,15,0,0.0
+2020-11-25,Other,desktop,7,5,0,0.0
+2020-11-25,Other,mobile,1,1,0,0.0
+2020-11-26,Direct,desktop,1257,1041,8,345.0
+2020-11-26,Direct,mobile,930,764,6,416.0
+2020-11-26,Direct,tablet,47,36,1,55.0
+2020-11-26,Organic Search,desktop,570,509,11,869.0
+2020-11-26,Organic Search,mobile,443,401,14,1776.0
+2020-11-26,Organic Search,tablet,23,20,0,0.0
+2020-11-26,Paid Search,desktop,54,50,1,12.0
+2020-11-26,Paid Search,mobile,32,32,0,0.0
+2020-11-26,Paid Search,tablet,3,3,0,0.0
+2020-11-26,Referral,desktop,53,44,1,98.0
+2020-11-26,Referral,mobile,15,13,0,0.0
+2020-11-26,Referral,tablet,1,1,0,0.0
+2020-11-26,Unknown (obfuscated),desktop,433,387,8,469.0
+2020-11-26,Unknown (obfuscated),mobile,285,259,7,409.0
+2020-11-26,Unknown (obfuscated),tablet,23,21,0,0.0
+2020-11-26,Other,desktop,5,3,0,0.0
+2020-11-26,Other,mobile,3,2,0,0.0
+2020-11-27,Direct,desktop,1153,947,18,1484.0
+2020-11-27,Direct,mobile,800,651,14,726.0
+2020-11-27,Direct,tablet,45,40,4,231.0
+2020-11-27,Email,desktop,1,1,1,88.0
+2020-11-27,Email,mobile,2,2,1,58.0
+2020-11-27,Organic Search,desktop,579,527,23,1328.0
+2020-11-27,Organic Search,mobile,383,347,12,714.0
+2020-11-27,Organic Search,tablet,22,21,1,76.0
+2020-11-27,Paid Search,desktop,61,60,1,111.0
+2020-11-27,Paid Search,mobile,55,53,0,0.0
+2020-11-27,Paid Search,tablet,6,6,0,0.0
+2020-11-27,Referral,desktop,33,23,0,0.0
+2020-11-27,Referral,mobile,36,28,0,0.0
+2020-11-27,Unknown (obfuscated),desktop,465,427,13,1156.0
+2020-11-27,Unknown (obfuscated),mobile,309,292,7,433.0
+2020-11-27,Unknown (obfuscated),tablet,19,18,1,34.0
+2020-11-27,Other,desktop,4,3,0,0.0
+2020-11-27,Other,mobile,4,3,0,0.0
+2020-11-28,Direct,desktop,1017,830,11,930.0
+2020-11-28,Direct,mobile,710,597,10,515.0
+2020-11-28,Direct,tablet,33,26,0,0.0
+2020-11-28,Email,desktop,4,4,1,76.0
+2020-11-28,Email,mobile,1,1,1,41.0
+2020-11-28,Organic Search,desktop,485,454,9,928.0
+2020-11-28,Organic Search,mobile,342,314,16,2080.0
+2020-11-28,Organic Search,tablet,21,21,1,0.0
+2020-11-28,Paid Search,desktop,47,45,0,0.0
+2020-11-28,Paid Search,mobile,30,29,0,0.0
+2020-11-28,Paid Search,tablet,1,1,0,0.0
+2020-11-28,Referral,desktop,27,17,0,0.0
+2020-11-28,Referral,mobile,28,17,1,23.0
+2020-11-28,Referral,tablet,1,1,0,0.0
+2020-11-28,Unknown (obfuscated),desktop,381,350,16,1099.0
+2020-11-28,Unknown (obfuscated),mobile,238,212,10,386.0
+2020-11-28,Unknown (obfuscated),tablet,10,9,1,14.0
+2020-11-28,Other,desktop,2,1,0,0.0
+2020-11-28,Other,mobile,8,2,0,0.0
+2020-11-28,Other,tablet,1,1,0,0.0
+2020-11-29,Direct,desktop,1021,826,8,817.0
+2020-11-29,Direct,mobile,706,571,5,238.0
+2020-11-29,Direct,tablet,34,28,1,243.0
+2020-11-29,Email,desktop,3,2,2,265.0
+2020-11-29,Email,mobile,1,1,0,0.0
+2020-11-29,Organic Search,desktop,429,394,11,548.0
+2020-11-29,Organic Search,mobile,332,306,7,671.0
+2020-11-29,Organic Search,tablet,16,14,1,34.0
+2020-11-29,Paid Search,desktop,48,47,1,233.0
+2020-11-29,Paid Search,mobile,29,27,0,0.0
+2020-11-29,Paid Search,tablet,2,2,0,0.0
+2020-11-29,Referral,desktop,23,19,1,78.0
+2020-11-29,Referral,mobile,16,11,0,0.0
+2020-11-29,Referral,tablet,1,0,0,0.0
+2020-11-29,Unknown (obfuscated),desktop,336,303,6,247.0
+2020-11-29,Unknown (obfuscated),mobile,236,218,10,564.0
+2020-11-29,Unknown (obfuscated),tablet,12,12,0,0.0
+2020-11-29,Other,desktop,4,4,0,0.0
+2020-11-29,Other,mobile,4,3,0,0.0
+2020-11-30,Direct,desktop,1412,1104,22,2581.0
+2020-11-30,Direct,mobile,905,709,16,1347.0
+2020-11-30,Direct,tablet,49,41,0,0.0
+2020-11-30,Email,desktop,3,3,1,74.0
+2020-11-30,Email,mobile,6,6,2,240.0
+2020-11-30,Organic Search,desktop,640,584,22,2052.0
+2020-11-30,Organic Search,mobile,446,410,16,942.0
+2020-11-30,Organic Search,tablet,38,37,0,0.0
+2020-11-30,Paid Search,desktop,68,68,1,80.0
+2020-11-30,Paid Search,mobile,57,55,0,0.0
+2020-11-30,Paid Search,tablet,2,2,0,0.0
+2020-11-30,Referral,desktop,43,38,1,76.0
+2020-11-30,Referral,mobile,19,15,0,0.0
+2020-11-30,Referral,tablet,2,2,0,0.0
+2020-11-30,Unknown (obfuscated),desktop,521,465,28,1790.0
+2020-11-30,Unknown (obfuscated),mobile,349,317,30,2755.0
+2020-11-30,Unknown (obfuscated),tablet,15,14,1,7.0
+2020-11-30,Other,desktop,6,4,0,0.0
+2020-11-30,Other,mobile,2,2,0,0.0
+2020-12-01,Direct,desktop,1495,1217,20,843.0
+2020-12-01,Direct,mobile,1002,821,17,902.0
+2020-12-01,Direct,tablet,63,50,1,62.0
+2020-12-01,Email,desktop,4,4,0,0.0
+2020-12-01,Email,mobile,2,2,1,0.0
+2020-12-01,Organic Search,desktop,714,642,19,1216.0
+2020-12-01,Organic Search,mobile,522,474,12,556.0
+2020-12-01,Organic Search,tablet,20,18,0,0.0
+2020-12-01,Paid Search,desktop,66,65,1,123.0
+2020-12-01,Paid Search,mobile,54,53,1,11.0
+2020-12-01,Paid Search,tablet,1,1,0,0.0
+2020-12-01,Referral,desktop,48,39,0,0.0
+2020-12-01,Referral,mobile,29,20,2,79.0
+2020-12-01,Referral,tablet,2,1,0,0.0
+2020-12-01,Unknown (obfuscated),desktop,573,522,22,1093.0
+2020-12-01,Unknown (obfuscated),mobile,363,320,10,1343.0
+2020-12-01,Unknown (obfuscated),tablet,21,20,0,0.0
+2020-12-01,Other,desktop,2,2,0,0.0
+2020-12-01,Other,mobile,2,2,0,0.0
+2020-12-02,Direct,desktop,1494,1185,13,676.0
+2020-12-02,Direct,mobile,988,799,10,856.0
+2020-12-02,Direct,tablet,45,38,0,0.0
+2020-12-02,Email,desktop,2,1,1,31.0
+2020-12-02,Email,mobile,1,1,0,0.0
+2020-12-02,Organic Search,desktop,660,613,20,1200.0
+2020-12-02,Organic Search,mobile,471,431,13,1209.0
+2020-12-02,Organic Search,tablet,39,38,2,114.0
+2020-12-02,Paid Search,desktop,76,75,0,0.0
+2020-12-02,Paid Search,mobile,45,43,0,0.0
+2020-12-02,Paid Search,tablet,2,2,0,0.0
+2020-12-02,Referral,desktop,51,42,2,107.0
+2020-12-02,Referral,mobile,26,22,1,45.0
+2020-12-02,Referral,tablet,1,1,0,0.0
+2020-12-02,Unknown (obfuscated),desktop,526,466,11,421.0
+2020-12-02,Unknown (obfuscated),mobile,332,297,8,478.0
+2020-12-02,Unknown (obfuscated),tablet,30,26,2,81.0
+2020-12-02,Other,desktop,4,4,0,0.0
+2020-12-02,Other,mobile,7,7,0,0.0
+2020-12-02,Other,tablet,1,0,0,0.0
+2020-12-03,Direct,desktop,1600,1306,20,1017.0
+2020-12-03,Direct,mobile,1012,803,9,314.0
+2020-12-03,Direct,tablet,64,51,1,0.0
+2020-12-03,Organic Search,desktop,794,728,22,925.0
+2020-12-03,Organic Search,mobile,552,496,11,507.0
+2020-12-03,Organic Search,tablet,30,30,1,13.0
+2020-12-03,Paid Search,desktop,81,79,0,0.0
+2020-12-03,Paid Search,mobile,43,41,0,0.0
+2020-12-03,Paid Search,tablet,2,2,0,0.0
+2020-12-03,Referral,desktop,72,61,3,76.0
+2020-12-03,Referral,mobile,48,42,1,16.0
+2020-12-03,Referral,tablet,3,1,0,0.0
+2020-12-03,Unknown (obfuscated),desktop,520,475,13,726.0
+2020-12-03,Unknown (obfuscated),mobile,333,295,8,702.0
+2020-12-03,Unknown (obfuscated),tablet,20,19,1,28.0
+2020-12-03,Other,desktop,5,5,0,0.0
+2020-12-03,Other,mobile,3,2,0,0.0
+2020-12-04,Direct,desktop,1377,1142,21,1770.0
+2020-12-04,Direct,mobile,957,774,17,1241.0
+2020-12-04,Direct,tablet,62,48,1,76.0
+2020-12-04,Organic Search,desktop,731,663,17,1049.0
+2020-12-04,Organic Search,mobile,468,429,12,421.0
+2020-12-04,Organic Search,tablet,18,18,0,0.0
+2020-12-04,Paid Search,desktop,82,81,2,55.0
+2020-12-04,Paid Search,mobile,43,42,1,40.0
+2020-12-04,Paid Search,tablet,3,3,0,0.0
+2020-12-04,Referral,desktop,45,40,0,0.0
+2020-12-04,Referral,mobile,39,31,2,132.0
+2020-12-04,Referral,tablet,1,0,0,0.0
+2020-12-04,Unknown (obfuscated),desktop,490,456,13,1007.0
+2020-12-04,Unknown (obfuscated),mobile,368,325,9,686.0
+2020-12-04,Unknown (obfuscated),tablet,19,18,1,32.0
+2020-12-04,Other,desktop,9,9,0,0.0
+2020-12-04,Other,mobile,1,1,0,0.0
+2020-12-04,Other,tablet,1,1,0,0.0
+2020-12-05,Direct,desktop,1030,878,15,946.0
+2020-12-05,Direct,mobile,737,594,9,511.0
+2020-12-05,Direct,tablet,29,24,0,0.0
+2020-12-05,Organic Search,desktop,504,459,25,1622.0
+2020-12-05,Organic Search,mobile,380,345,11,833.0
+2020-12-05,Organic Search,tablet,15,13,2,121.0
+2020-12-05,Paid Search,desktop,70,68,1,307.0
+2020-12-05,Paid Search,mobile,38,37,0,0.0
+2020-12-05,Paid Search,tablet,5,5,0,0.0
+2020-12-05,Referral,desktop,23,12,1,98.0
+2020-12-05,Referral,mobile,12,10,2,141.0
+2020-12-05,Unknown (obfuscated),desktop,372,341,6,724.0
+2020-12-05,Unknown (obfuscated),mobile,262,238,14,1018.0
+2020-12-05,Unknown (obfuscated),tablet,13,10,0,0.0
+2020-12-05,Other,desktop,6,4,0,0.0
+2020-12-05,Other,mobile,2,2,0,0.0
+2020-12-06,Direct,desktop,933,776,6,512.0
+2020-12-06,Direct,mobile,721,585,3,79.0
+2020-12-06,Direct,tablet,45,35,0,0.0
+2020-12-06,Email,desktop,1,1,0,0.0
+2020-12-06,Organic Search,desktop,477,445,8,382.0
+2020-12-06,Organic Search,mobile,338,314,8,212.0
+2020-12-06,Organic Search,tablet,18,17,1,30.0
+2020-12-06,Paid Search,desktop,51,49,0,0.0
+2020-12-06,Paid Search,mobile,35,34,0,0.0
+2020-12-06,Paid Search,tablet,2,1,0,0.0
+2020-12-06,Referral,desktop,18,14,2,223.0
+2020-12-06,Referral,mobile,16,10,0,0.0
+2020-12-06,Unknown (obfuscated),desktop,388,358,9,682.0
+2020-12-06,Unknown (obfuscated),mobile,258,237,5,358.0
+2020-12-06,Unknown (obfuscated),tablet,19,17,1,20.0
+2020-12-06,Other,desktop,4,4,0,0.0
+2020-12-06,Other,mobile,3,3,0,0.0
+2020-12-07,Direct,desktop,1680,1387,25,3487.0
+2020-12-07,Direct,mobile,1141,929,13,556.0
+2020-12-07,Direct,tablet,52,42,0,0.0
+2020-12-07,Organic Search,desktop,756,688,17,915.0
+2020-12-07,Organic Search,mobile,530,484,17,928.0
+2020-12-07,Organic Search,tablet,23,19,0,0.0
+2020-12-07,Paid Search,desktop,76,72,0,0.0
+2020-12-07,Paid Search,mobile,55,55,0,0.0
+2020-12-07,Paid Search,tablet,6,6,0,0.0
+2020-12-07,Referral,desktop,41,30,1,38.0
+2020-12-07,Referral,mobile,28,23,0,0.0
+2020-12-07,Unknown (obfuscated),desktop,625,568,27,2027.0
+2020-12-07,Unknown (obfuscated),mobile,396,360,13,803.0
+2020-12-07,Unknown (obfuscated),tablet,21,21,1,46.0
+2020-12-07,Other,desktop,8,8,0,0.0
+2020-12-07,Other,mobile,13,12,0,0.0
+2020-12-08,Direct,desktop,2625,2252,20,988.0
+2020-12-08,Direct,mobile,1766,1493,16,1311.0
+2020-12-08,Direct,tablet,110,94,0,0.0
+2020-12-08,Email,desktop,1,1,1,84.0
+2020-12-08,Organic Search,desktop,958,870,18,1006.0
+2020-12-08,Organic Search,mobile,621,568,16,1652.0
+2020-12-08,Organic Search,tablet,29,28,2,53.0
+2020-12-08,Paid Search,desktop,85,81,2,109.0
+2020-12-08,Paid Search,mobile,59,56,0,0.0
+2020-12-08,Paid Search,tablet,6,5,0,0.0
+2020-12-08,Referral,desktop,64,45,0,0.0
+2020-12-08,Referral,mobile,35,29,2,143.0
+2020-12-08,Referral,tablet,3,1,0,0.0
+2020-12-08,Unknown (obfuscated),desktop,697,627,32,2162.0
+2020-12-08,Unknown (obfuscated),mobile,470,415,7,327.0
+2020-12-08,Unknown (obfuscated),tablet,25,22,1,362.0
+2020-12-08,Other,desktop,4,4,0,0.0
+2020-12-08,Other,mobile,2,1,0,0.0
+2020-12-08,Other,tablet,2,2,0,0.0
+2020-12-09,Direct,desktop,1978,1628,24,1834.0
+2020-12-09,Direct,mobile,1362,1114,19,1647.0
+2020-12-09,Direct,tablet,100,74,1,44.0
+2020-12-09,Organic Search,desktop,930,866,34,1755.0
+2020-12-09,Organic Search,mobile,625,581,11,696.0
+2020-12-09,Organic Search,tablet,26,22,1,14.0
+2020-12-09,Paid Search,desktop,72,69,0,0.0
+2020-12-09,Paid Search,mobile,52,51,0,0.0
+2020-12-09,Paid Search,tablet,3,3,0,0.0
+2020-12-09,Referral,desktop,32,20,1,22.0
+2020-12-09,Referral,mobile,26,21,0,0.0
+2020-12-09,Unknown (obfuscated),desktop,636,575,42,3216.0
+2020-12-09,Unknown (obfuscated),mobile,405,353,17,1560.0
+2020-12-09,Unknown (obfuscated),tablet,29,25,2,209.0
+2020-12-09,Other,desktop,4,1,0,0.0
+2020-12-09,Other,mobile,2,2,0,0.0
+2020-12-10,Direct,desktop,1818,1522,19,1390.0
+2020-12-10,Direct,mobile,1190,1000,25,3607.0
+2020-12-10,Direct,tablet,72,58,0,0.0
+2020-12-10,Email,desktop,4,2,0,0.0
+2020-12-10,Email,mobile,3,2,1,92.0
+2020-12-10,Organic Search,desktop,912,848,30,2086.0
+2020-12-10,Organic Search,mobile,618,561,21,893.0
+2020-12-10,Organic Search,tablet,28,27,1,35.0
+2020-12-10,Paid Search,desktop,95,93,1,18.0
+2020-12-10,Paid Search,mobile,53,50,0,0.0
+2020-12-10,Paid Search,tablet,5,5,0,0.0
+2020-12-10,Referral,desktop,44,32,3,188.0
+2020-12-10,Referral,mobile,21,17,0,0.0
+2020-12-10,Referral,tablet,1,1,0,0.0
+2020-12-10,Unknown (obfuscated),desktop,651,584,30,1857.0
+2020-12-10,Unknown (obfuscated),mobile,444,395,13,706.0
+2020-12-10,Unknown (obfuscated),tablet,22,21,1,21.0
+2020-12-10,Other,desktop,4,1,0,0.0
+2020-12-10,Other,mobile,7,5,0,0.0
+2020-12-10,Other,tablet,1,1,0,0.0
+2020-12-11,Direct,desktop,1708,1421,26,1372.0
+2020-12-11,Direct,mobile,1061,892,27,1744.0
+2020-12-11,Direct,tablet,59,46,1,56.0
+2020-12-11,Email,desktop,10,9,0,0.0
+2020-12-11,Email,mobile,16,12,1,118.0
+2020-12-11,Organic Search,desktop,853,793,30,2670.0
+2020-12-11,Organic Search,mobile,617,578,19,1349.0
+2020-12-11,Organic Search,tablet,38,36,0,0.0
+2020-12-11,Paid Search,desktop,83,82,3,82.0
+2020-12-11,Paid Search,mobile,68,66,2,200.0
+2020-12-11,Paid Search,tablet,3,3,0,0.0
+2020-12-11,Referral,desktop,29,24,3,75.0
+2020-12-11,Referral,mobile,22,16,1,77.0
+2020-12-11,Unknown (obfuscated),desktop,593,538,28,1466.0
+2020-12-11,Unknown (obfuscated),mobile,419,368,15,920.0
+2020-12-11,Unknown (obfuscated),tablet,22,20,0,0.0
+2020-12-11,Other,desktop,4,4,0,0.0
+2020-12-11,Other,mobile,2,2,0,0.0
+2020-12-12,Direct,desktop,1296,1121,28,1782.0
+2020-12-12,Direct,mobile,820,694,7,482.0
+2020-12-12,Direct,tablet,47,39,1,0.0
+2020-12-12,Email,desktop,3,2,1,231.0
+2020-12-12,Email,mobile,3,2,0,0.0
+2020-12-12,Organic Search,desktop,663,635,25,1306.0
+2020-12-12,Organic Search,mobile,443,415,15,668.0
+2020-12-12,Organic Search,tablet,32,30,0,0.0
+2020-12-12,Paid Search,desktop,44,43,0,0.0
+2020-12-12,Paid Search,mobile,46,46,1,14.0
+2020-12-12,Paid Search,tablet,1,1,0,0.0
+2020-12-12,Referral,desktop,27,22,1,41.0
+2020-12-12,Referral,mobile,8,5,0,0.0
+2020-12-12,Referral,tablet,1,0,0,0.0
+2020-12-12,Unknown (obfuscated),desktop,418,370,17,1003.0
+2020-12-12,Unknown (obfuscated),mobile,268,247,11,757.0
+2020-12-12,Unknown (obfuscated),tablet,8,7,0,0.0
+2020-12-12,Other,desktop,6,5,0,0.0
+2020-12-12,Other,mobile,1,1,0,0.0
+2020-12-13,Direct,desktop,1126,969,14,669.0
+2020-12-13,Direct,mobile,777,676,7,372.0
+2020-12-13,Direct,tablet,40,34,0,0.0
+2020-12-13,Email,desktop,1,1,0,0.0
+2020-12-13,Organic Search,desktop,600,565,15,1022.0
+2020-12-13,Organic Search,mobile,417,388,15,570.0
+2020-12-13,Organic Search,tablet,20,20,0,0.0
+2020-12-13,Paid Search,desktop,56,55,0,0.0
+2020-12-13,Paid Search,mobile,37,37,1,95.0
+2020-12-13,Paid Search,tablet,2,2,0,0.0
+2020-12-13,Referral,desktop,14,11,0,0.0
+2020-12-13,Referral,mobile,8,8,0,0.0
+2020-12-13,Unknown (obfuscated),desktop,339,307,13,1192.0
+2020-12-13,Unknown (obfuscated),mobile,244,232,9,501.0
+2020-12-13,Unknown (obfuscated),tablet,13,13,0,0.0
+2020-12-13,Other,desktop,3,2,0,0.0
+2020-12-13,Other,mobile,1,0,0,0.0
+2020-12-13,Other,tablet,1,0,0,0.0
+2020-12-14,Direct,desktop,1525,1272,15,3119.0
+2020-12-14,Direct,mobile,1012,835,24,1838.0
+2020-12-14,Direct,tablet,71,56,0,0.0
+2020-12-14,Email,desktop,5,5,1,18.0
+2020-12-14,Email,mobile,2,2,1,46.0
+2020-12-14,Organic Search,desktop,828,776,13,612.0
+2020-12-14,Organic Search,mobile,550,520,13,621.0
+2020-12-14,Organic Search,tablet,36,35,0,0.0
+2020-12-14,Paid Search,desktop,79,78,1,107.0
+2020-12-14,Paid Search,mobile,40,40,0,0.0
+2020-12-14,Paid Search,tablet,2,2,0,0.0
+2020-12-14,Referral,desktop,23,15,0,0.0
+2020-12-14,Referral,mobile,23,16,0,0.0
+2020-12-14,Referral,tablet,1,1,0,0.0
+2020-12-14,Unknown (obfuscated),desktop,475,434,9,921.0
+2020-12-14,Unknown (obfuscated),mobile,394,367,21,1182.0
+2020-12-14,Unknown (obfuscated),tablet,21,17,1,105.0
+2020-12-14,Other,desktop,6,3,0,0.0
+2020-12-14,Other,mobile,5,3,0,0.0
+2020-12-15,Direct,desktop,1679,1393,39,3469.0
+2020-12-15,Direct,mobile,1100,908,17,1182.0
+2020-12-15,Direct,tablet,57,42,0,0.0
+2020-12-15,Email,desktop,3,2,0,0.0
+2020-12-15,Email,mobile,1,1,0,0.0
+2020-12-15,Organic Search,desktop,878,824,22,1812.0
+2020-12-15,Organic Search,mobile,620,575,26,1609.0
+2020-12-15,Organic Search,tablet,39,39,0,0.0
+2020-12-15,Paid Search,desktop,107,102,3,224.0
+2020-12-15,Paid Search,mobile,58,57,0,0.0
+2020-12-15,Paid Search,tablet,2,2,0,0.0
+2020-12-15,Referral,desktop,38,23,0,0.0
+2020-12-15,Referral,mobile,28,22,1,6.0
+2020-12-15,Unknown (obfuscated),desktop,644,578,22,1503.0
+2020-12-15,Unknown (obfuscated),mobile,448,400,9,443.0
+2020-12-15,Unknown (obfuscated),tablet,25,23,1,32.0
+2020-12-15,Other,desktop,5,2,0,0.0
+2020-12-15,Other,mobile,8,2,0,0.0
+2020-12-15,Other,tablet,1,1,0,0.0
+2020-12-16,Direct,desktop,1667,1369,29,2759.0
+2020-12-16,Direct,mobile,1113,926,22,1191.0
+2020-12-16,Direct,tablet,62,55,1,100.0
+2020-12-16,Email,mobile,1,1,0,0.0
+2020-12-16,Email,tablet,1,1,1,60.0
+2020-12-16,Organic Search,desktop,857,794,35,3119.0
+2020-12-16,Organic Search,mobile,591,555,15,828.0
+2020-12-16,Organic Search,tablet,23,20,0,0.0
+2020-12-16,Paid Search,desktop,84,84,0,0.0
+2020-12-16,Paid Search,mobile,48,45,0,0.0
+2020-12-16,Paid Search,tablet,3,3,0,0.0
+2020-12-16,Referral,desktop,23,19,0,0.0
+2020-12-16,Referral,mobile,19,11,0,0.0
+2020-12-16,Referral,tablet,2,1,0,0.0
+2020-12-16,Unknown (obfuscated),desktop,613,548,22,1268.0
+2020-12-16,Unknown (obfuscated),mobile,388,344,16,1552.0
+2020-12-16,Unknown (obfuscated),tablet,26,26,0,0.0
+2020-12-16,Other,desktop,4,4,0,0.0
+2020-12-16,Other,mobile,3,1,0,0.0
+2020-12-17,Direct,desktop,1553,1292,20,985.0
+2020-12-17,Direct,mobile,1048,891,20,1749.0
+2020-12-17,Direct,tablet,46,41,0,0.0
+2020-12-17,Organic Search,desktop,855,802,19,842.0
+2020-12-17,Organic Search,mobile,621,576,16,985.0
+2020-12-17,Organic Search,tablet,24,22,1,15.0
+2020-12-17,Paid Search,desktop,75,75,2,84.0
+2020-12-17,Paid Search,mobile,54,54,1,30.0
+2020-12-17,Paid Search,tablet,5,5,0,0.0
+2020-12-17,Referral,desktop,24,19,0,0.0
+2020-12-17,Referral,mobile,15,13,0,0.0
+2020-12-17,Referral,tablet,1,1,0,0.0
+2020-12-17,Unknown (obfuscated),desktop,587,543,33,1284.0
+2020-12-17,Unknown (obfuscated),mobile,407,371,17,959.0
+2020-12-17,Unknown (obfuscated),tablet,22,17,0,0.0
+2020-12-17,Other,desktop,6,6,0,0.0
+2020-12-17,Other,mobile,2,2,0,0.0
+2020-12-18,Direct,desktop,1425,1205,26,1804.0
+2020-12-18,Direct,mobile,995,853,7,806.0
+2020-12-18,Direct,tablet,56,49,1,79.0
+2020-12-18,Email,desktop,1,1,1,24.0
+2020-12-18,Email,mobile,1,1,0,0.0
+2020-12-18,Organic Search,desktop,779,735,21,1122.0
+2020-12-18,Organic Search,mobile,546,506,21,889.0
+2020-12-18,Organic Search,tablet,25,23,0,0.0
+2020-12-18,Paid Search,desktop,52,50,1,102.0
+2020-12-18,Paid Search,mobile,47,46,0,0.0
+2020-12-18,Referral,desktop,25,20,1,99.0
+2020-12-18,Referral,mobile,22,15,1,95.0
+2020-12-18,Referral,tablet,1,1,0,0.0
+2020-12-18,Unknown (obfuscated),desktop,475,443,17,1028.0
+2020-12-18,Unknown (obfuscated),mobile,342,301,9,711.0
+2020-12-18,Unknown (obfuscated),tablet,28,25,0,0.0
+2020-12-18,Other,desktop,3,2,0,0.0
+2020-12-18,Other,mobile,1,1,0,0.0
+2020-12-19,Direct,desktop,1047,914,13,507.0
+2020-12-19,Direct,mobile,796,678,6,373.0
+2020-12-19,Direct,tablet,42,36,0,0.0
+2020-12-19,Email,desktop,1,1,0,0.0
+2020-12-19,Email,mobile,1,1,1,35.0
+2020-12-19,Organic Search,desktop,583,551,14,528.0
+2020-12-19,Organic Search,mobile,373,349,6,357.0
+2020-12-19,Organic Search,tablet,14,13,0,0.0
+2020-12-19,Paid Search,desktop,46,46,0,0.0
+2020-12-19,Paid Search,mobile,33,32,0,0.0
+2020-12-19,Paid Search,tablet,3,3,0,0.0
+2020-12-19,Referral,desktop,24,22,0,0.0
+2020-12-19,Referral,mobile,13,11,0,0.0
+2020-12-19,Referral,tablet,1,1,0,0.0
+2020-12-19,Unknown (obfuscated),desktop,327,293,2,62.0
+2020-12-19,Unknown (obfuscated),mobile,264,238,9,597.0
+2020-12-19,Unknown (obfuscated),tablet,12,11,0,0.0
+2020-12-19,Other,desktop,3,3,0,0.0
+2020-12-19,Other,mobile,4,3,0,0.0
+2020-12-20,Direct,desktop,1071,935,1,34.0
+2020-12-20,Direct,mobile,700,600,3,146.0
+2020-12-20,Direct,tablet,36,31,0,0.0
+2020-12-20,Organic Search,desktop,516,491,5,507.0
+2020-12-20,Organic Search,mobile,315,297,3,119.0
+2020-12-20,Organic Search,tablet,18,15,0,0.0
+2020-12-20,Paid Search,desktop,33,32,0,0.0
+2020-12-20,Paid Search,mobile,33,30,0,0.0
+2020-12-20,Paid Search,tablet,2,2,0,0.0
+2020-12-20,Referral,desktop,21,16,0,0.0
+2020-12-20,Referral,mobile,15,14,1,91.0
+2020-12-20,Referral,tablet,1,0,0,0.0
+2020-12-20,Unknown (obfuscated),desktop,307,282,5,472.0
+2020-12-20,Unknown (obfuscated),mobile,210,192,1,30.0
+2020-12-20,Unknown (obfuscated),tablet,7,7,0,0.0
+2020-12-20,Other,desktop,1,1,0,0.0
+2020-12-20,Other,mobile,2,1,0,0.0
+2020-12-21,Direct,desktop,1179,992,13,1591.0
+2020-12-21,Direct,mobile,825,695,6,256.0
+2020-12-21,Direct,tablet,50,46,2,87.0
+2020-12-21,Organic Search,desktop,616,591,7,195.0
+2020-12-21,Organic Search,mobile,409,383,4,318.0
+2020-12-21,Organic Search,tablet,28,28,2,116.0
+2020-12-21,Paid Search,desktop,57,55,0,0.0
+2020-12-21,Paid Search,mobile,29,29,0,0.0
+2020-12-21,Paid Search,tablet,1,1,0,0.0
+2020-12-21,Referral,desktop,19,14,1,61.0
+2020-12-21,Referral,mobile,27,21,3,30.0
+2020-12-21,Referral,tablet,2,2,0,0.0
+2020-12-21,Unknown (obfuscated),desktop,440,393,9,629.0
+2020-12-21,Unknown (obfuscated),mobile,298,276,8,269.0
+2020-12-21,Unknown (obfuscated),tablet,19,18,0,0.0
+2020-12-21,Other,desktop,4,2,0,0.0
+2020-12-21,Other,mobile,3,1,0,0.0
+2020-12-22,Direct,desktop,1060,875,15,837.0
+2020-12-22,Direct,mobile,786,647,6,342.0
+2020-12-22,Direct,tablet,48,37,0,0.0
+2020-12-22,Organic Search,desktop,625,590,8,461.0
+2020-12-22,Organic Search,mobile,434,399,6,249.0
+2020-12-22,Organic Search,tablet,22,20,0,0.0
+2020-12-22,Paid Search,desktop,57,54,0,0.0
+2020-12-22,Paid Search,mobile,38,38,0,0.0
+2020-12-22,Paid Search,tablet,1,1,0,0.0
+2020-12-22,Referral,desktop,11,6,0,0.0
+2020-12-22,Referral,mobile,13,11,0,0.0
+2020-12-22,Referral,tablet,1,0,0,0.0
+2020-12-22,Unknown (obfuscated),desktop,422,371,12,712.0
+2020-12-22,Unknown (obfuscated),mobile,300,276,10,464.0
+2020-12-22,Unknown (obfuscated),tablet,13,12,1,42.0
+2020-12-22,Other,desktop,4,3,0,0.0
+2020-12-22,Other,mobile,3,3,0,0.0
+2020-12-23,Direct,desktop,1006,849,9,1294.0
+2020-12-23,Direct,mobile,717,597,10,386.0
+2020-12-23,Direct,tablet,31,28,0,0.0
+2020-12-23,Organic Search,desktop,540,506,10,552.0
+2020-12-23,Organic Search,mobile,360,342,13,832.0
+2020-12-23,Organic Search,tablet,24,23,0,0.0
+2020-12-23,Paid Search,desktop,40,39,0,0.0
+2020-12-23,Paid Search,mobile,41,40,0,0.0
+2020-12-23,Paid Search,tablet,2,2,0,0.0
+2020-12-23,Referral,desktop,12,11,0,0.0
+2020-12-23,Referral,mobile,15,12,0,0.0
+2020-12-23,Unknown (obfuscated),desktop,354,326,14,856.0
+2020-12-23,Unknown (obfuscated),mobile,286,259,11,498.0
+2020-12-23,Unknown (obfuscated),tablet,12,12,0,0.0
+2020-12-23,Other,desktop,2,1,0,0.0
+2020-12-23,Other,mobile,1,0,0,0.0
+2020-12-24,Direct,desktop,829,738,1,59.0
+2020-12-24,Direct,mobile,658,571,3,184.0
+2020-12-24,Direct,tablet,37,33,2,101.0
+2020-12-24,Organic Search,desktop,421,398,2,147.0
+2020-12-24,Organic Search,mobile,275,260,4,108.0
+2020-12-24,Organic Search,tablet,14,14,0,0.0
+2020-12-24,Paid Search,desktop,39,37,0,0.0
+2020-12-24,Paid Search,mobile,32,31,0,0.0
+2020-12-24,Paid Search,tablet,2,2,0,0.0
+2020-12-24,Referral,desktop,17,14,1,0.0
+2020-12-24,Referral,mobile,9,8,0,0.0
+2020-12-24,Unknown (obfuscated),desktop,275,256,7,517.0
+2020-12-24,Unknown (obfuscated),mobile,174,157,3,76.0
+2020-12-24,Unknown (obfuscated),tablet,11,10,0,0.0
+2020-12-24,Other,desktop,3,3,0,0.0
+2020-12-24,Other,mobile,2,2,0,0.0
+2020-12-25,Direct,desktop,901,804,2,70.0
+2020-12-25,Direct,mobile,600,531,2,26.0
+2020-12-25,Direct,tablet,35,34,0,0.0
+2020-12-25,Organic Search,desktop,387,372,1,44.0
+2020-12-25,Organic Search,mobile,284,274,4,100.0
+2020-12-25,Organic Search,tablet,16,15,0,0.0
+2020-12-25,Paid Search,desktop,42,41,0,0.0
+2020-12-25,Paid Search,mobile,22,22,1,26.0
+2020-12-25,Referral,desktop,6,5,1,91.0
+2020-12-25,Referral,mobile,7,4,0,0.0
+2020-12-25,Unknown (obfuscated),desktop,212,198,3,83.0
+2020-12-25,Unknown (obfuscated),mobile,124,114,3,112.0
+2020-12-25,Unknown (obfuscated),tablet,7,6,0,0.0
+2020-12-25,Other,desktop,2,2,0,0.0
+2020-12-26,Direct,desktop,886,787,0,0.0
+2020-12-26,Direct,mobile,598,528,2,48.0
+2020-12-26,Direct,tablet,34,29,0,0.0
+2020-12-26,Organic Search,desktop,409,392,4,199.0
+2020-12-26,Organic Search,mobile,275,265,6,229.0
+2020-12-26,Organic Search,tablet,14,14,0,0.0
+2020-12-26,Paid Search,desktop,30,30,0,0.0
+2020-12-26,Paid Search,mobile,21,21,0,0.0
+2020-12-26,Referral,desktop,9,7,0,0.0
+2020-12-26,Referral,mobile,13,8,0,0.0
+2020-12-26,Unknown (obfuscated),desktop,217,199,1,67.0
+2020-12-26,Unknown (obfuscated),mobile,154,140,4,191.0
+2020-12-26,Unknown (obfuscated),tablet,8,8,0,0.0
+2020-12-26,Other,desktop,3,3,0,0.0
+2020-12-26,Other,mobile,5,5,0,0.0
+2020-12-27,Direct,desktop,862,766,2,50.0
+2020-12-27,Direct,mobile,584,516,2,117.0
+2020-12-27,Direct,tablet,32,30,1,48.0
+2020-12-27,Organic Search,desktop,413,392,4,210.0
+2020-12-27,Organic Search,mobile,299,287,3,234.0
+2020-12-27,Organic Search,tablet,19,19,0,0.0
+2020-12-27,Paid Search,desktop,33,33,0,0.0
+2020-12-27,Paid Search,mobile,19,18,0,0.0
+2020-12-27,Referral,desktop,8,6,0,0.0
+2020-12-27,Referral,mobile,11,9,1,84.0
+2020-12-27,Unknown (obfuscated),desktop,236,215,5,349.0
+2020-12-27,Unknown (obfuscated),mobile,152,136,2,69.0
+2020-12-27,Unknown (obfuscated),tablet,8,7,0,0.0
+2020-12-27,Other,mobile,1,0,0,0.0
+2020-12-28,Direct,desktop,1101,978,6,345.0
+2020-12-28,Direct,mobile,726,612,4,270.0
+2020-12-28,Direct,tablet,38,32,0,0.0
+2020-12-28,Organic Search,desktop,458,435,10,767.0
+2020-12-28,Organic Search,mobile,331,319,6,148.0
+2020-12-28,Organic Search,tablet,22,21,0,0.0
+2020-12-28,Paid Search,desktop,54,53,1,22.0
+2020-12-28,Paid Search,mobile,28,28,0,0.0
+2020-12-28,Paid Search,tablet,2,2,0,0.0
+2020-12-28,Referral,desktop,22,13,0,0.0
+2020-12-28,Referral,mobile,23,19,0,0.0
+2020-12-28,Referral,tablet,1,0,0,0.0
+2020-12-28,Unknown (obfuscated),desktop,324,296,5,292.0
+2020-12-28,Unknown (obfuscated),mobile,204,188,3,129.0
+2020-12-28,Unknown (obfuscated),tablet,15,13,1,30.0
+2020-12-28,Other,desktop,6,6,1,144.0
+2020-12-28,Other,mobile,1,1,0,0.0
+2020-12-29,Direct,desktop,1092,992,5,447.0
+2020-12-29,Direct,mobile,748,691,0,0.0
+2020-12-29,Direct,tablet,46,41,0,0.0
+2020-12-29,Organic Search,desktop,496,483,4,395.0
+2020-12-29,Organic Search,mobile,368,353,4,89.0
+2020-12-29,Organic Search,tablet,29,29,1,16.0
+2020-12-29,Paid Search,desktop,47,47,0,0.0
+2020-12-29,Paid Search,mobile,33,32,0,0.0
+2020-12-29,Paid Search,tablet,2,2,0,0.0
+2020-12-29,Referral,desktop,24,21,1,76.0
+2020-12-29,Referral,mobile,10,10,0,0.0
+2020-12-29,Unknown (obfuscated),desktop,310,283,5,162.0
+2020-12-29,Unknown (obfuscated),mobile,208,192,3,183.0
+2020-12-29,Unknown (obfuscated),tablet,11,9,0,0.0
+2020-12-29,Other,desktop,7,6,0,0.0
+2020-12-29,Other,mobile,4,4,0,0.0
+2020-12-30,Direct,desktop,1056,986,7,1029.0
+2020-12-30,Direct,mobile,717,669,6,156.0
+2020-12-30,Direct,tablet,44,42,0,0.0
+2020-12-30,Organic Search,desktop,459,450,1,43.0
+2020-12-30,Organic Search,mobile,322,310,15,6.0
+2020-12-30,Organic Search,tablet,17,17,1,50.0
+2020-12-30,Paid Search,desktop,45,45,0,0.0
+2020-12-30,Paid Search,mobile,17,17,0,0.0
+2020-12-30,Paid Search,tablet,4,4,0,0.0
+2020-12-30,Referral,desktop,21,20,0,0.0
+2020-12-30,Referral,mobile,13,13,1,35.0
+2020-12-30,Unknown (obfuscated),desktop,291,270,3,218.0
+2020-12-30,Unknown (obfuscated),mobile,181,176,3,67.0
+2020-12-30,Unknown (obfuscated),tablet,15,15,0,0.0
+2020-12-30,Other,desktop,3,3,0,0.0
+2020-12-30,Other,mobile,8,6,0,0.0
+2020-12-31,Direct,desktop,857,807,2,247.0
+2020-12-31,Direct,mobile,599,569,3,101.0
+2020-12-31,Direct,tablet,44,41,0,0.0
+2020-12-31,Organic Search,desktop,397,386,8,483.0
+2020-12-31,Organic Search,mobile,241,236,1,26.0
+2020-12-31,Organic Search,tablet,24,24,0,0.0
+2020-12-31,Paid Search,desktop,45,45,1,27.0
+2020-12-31,Paid Search,mobile,13,13,0,0.0
+2020-12-31,Paid Search,tablet,3,3,0,0.0
+2020-12-31,Referral,desktop,7,6,1,89.0
+2020-12-31,Referral,mobile,12,12,0,0.0
+2020-12-31,Unknown (obfuscated),desktop,209,199,5,1523.0
+2020-12-31,Unknown (obfuscated),mobile,156,145,3,44.0
+2020-12-31,Unknown (obfuscated),tablet,10,9,1,55.0
+2020-12-31,Other,mobile,2,2,0,0.0
+2021-01-01,Direct,desktop,768,741,0,0.0
+2021-01-01,Direct,mobile,549,526,3,153.0
+2021-01-01,Direct,tablet,28,26,0,0.0
+2021-01-01,Organic Search,desktop,363,355,2,447.0
+2021-01-01,Organic Search,mobile,194,190,3,75.0
+2021-01-01,Organic Search,tablet,7,7,0,0.0
+2021-01-01,Paid Search,desktop,32,32,0,0.0
+2021-01-01,Paid Search,mobile,17,17,0,0.0
+2021-01-01,Paid Search,tablet,2,2,1,137.0
+2021-01-01,Referral,desktop,8,8,0,0.0
+2021-01-01,Referral,mobile,10,9,0,0.0
+2021-01-01,Unknown (obfuscated),desktop,188,172,4,111.0
+2021-01-01,Unknown (obfuscated),mobile,126,120,1,52.0
+2021-01-01,Unknown (obfuscated),tablet,14,14,0,0.0
+2021-01-01,Other,mobile,2,2,0,0.0
+2021-01-02,Direct,desktop,935,874,1,21.0
+2021-01-02,Direct,mobile,547,520,2,20.0
+2021-01-02,Direct,tablet,29,28,0,0.0
+2021-01-02,Organic Search,desktop,416,411,3,236.0
+2021-01-02,Organic Search,mobile,267,261,3,60.0
+2021-01-02,Organic Search,tablet,24,24,1,42.0
+2021-01-02,Paid Search,desktop,42,40,0,0.0
+2021-01-02,Paid Search,mobile,19,19,0,0.0
+2021-01-02,Paid Search,tablet,5,5,0,0.0
+2021-01-02,Referral,desktop,7,7,0,0.0
+2021-01-02,Referral,mobile,6,6,0,0.0
+2021-01-02,Unknown (obfuscated),desktop,260,252,2,377.0
+2021-01-02,Unknown (obfuscated),mobile,162,159,2,270.0
+2021-01-02,Unknown (obfuscated),tablet,6,6,0,0.0
+2021-01-02,Other,mobile,3,2,0,0.0
+2021-01-03,Direct,desktop,946,889,2,142.0
+2021-01-03,Direct,mobile,614,580,2,42.0
+2021-01-03,Direct,tablet,22,22,0,0.0
+2021-01-03,Organic Search,desktop,373,364,2,21.0
+2021-01-03,Organic Search,mobile,275,270,3,92.0
+2021-01-03,Organic Search,tablet,17,16,0,0.0
+2021-01-03,Paid Search,desktop,29,28,0,0.0
+2021-01-03,Paid Search,mobile,26,26,0,0.0
+2021-01-03,Referral,desktop,8,8,0,0.0
+2021-01-03,Referral,mobile,9,9,0,0.0
+2021-01-03,Unknown (obfuscated),desktop,287,271,4,284.0
+2021-01-03,Unknown (obfuscated),mobile,168,162,2,72.0
+2021-01-03,Unknown (obfuscated),tablet,8,6,0,0.0
+2021-01-03,Other,desktop,3,3,0,0.0
+2021-01-04,Direct,desktop,1113,1040,2,102.0
+2021-01-04,Direct,mobile,708,664,1,123.0
+2021-01-04,Direct,tablet,40,36,0,0.0
+2021-01-04,Organic Search,desktop,494,485,3,107.0
+2021-01-04,Organic Search,mobile,330,317,1,11.0
+2021-01-04,Organic Search,tablet,24,24,0,0.0
+2021-01-04,Paid Search,desktop,51,51,0,0.0
+2021-01-04,Paid Search,mobile,32,31,0,0.0
+2021-01-04,Referral,desktop,15,14,1,14.0
+2021-01-04,Referral,mobile,20,20,0,0.0
+2021-01-04,Unknown (obfuscated),desktop,303,284,2,154.0
+2021-01-04,Unknown (obfuscated),mobile,214,207,4,180.0
+2021-01-04,Unknown (obfuscated),tablet,16,16,1,42.0
+2021-01-04,Other,desktop,3,2,0,0.0
+2021-01-04,Other,mobile,4,4,0,0.0
+2021-01-05,Direct,desktop,1454,1352,2,37.0
+2021-01-05,Direct,mobile,1097,1025,2,157.0
+2021-01-05,Direct,tablet,56,53,0,0.0
+2021-01-05,Organic Search,desktop,599,578,10,348.0
+2021-01-05,Organic Search,mobile,432,422,4,145.0
+2021-01-05,Organic Search,tablet,22,21,0,0.0
+2021-01-05,Paid Search,desktop,54,54,0,0.0
+2021-01-05,Paid Search,mobile,38,36,2,27.0
+2021-01-05,Paid Search,tablet,4,4,0,0.0
+2021-01-05,Referral,desktop,14,13,0,0.0
+2021-01-05,Referral,mobile,22,19,0,0.0
+2021-01-05,Referral,tablet,1,1,0,0.0
+2021-01-05,Unknown (obfuscated),desktop,411,386,7,224.0
+2021-01-05,Unknown (obfuscated),mobile,256,243,3,229.0
+2021-01-05,Unknown (obfuscated),tablet,20,19,0,0.0
+2021-01-05,Other,desktop,1,1,0,0.0
+2021-01-05,Other,mobile,4,3,0,0.0
+2021-01-06,Direct,desktop,2356,2211,5,439.0
+2021-01-06,Direct,mobile,1506,1409,4,203.0
+2021-01-06,Direct,tablet,87,84,1,63.0
+2021-01-06,Organic Search,desktop,626,603,3,154.0
+2021-01-06,Organic Search,mobile,457,443,2,170.0
+2021-01-06,Organic Search,tablet,25,24,0,0.0
+2021-01-06,Paid Search,desktop,68,67,1,44.0
+2021-01-06,Paid Search,mobile,42,42,0,0.0
+2021-01-06,Referral,desktop,32,30,0,0.0
+2021-01-06,Referral,mobile,25,24,1,30.0
+2021-01-06,Unknown (obfuscated),desktop,452,423,8,656.0
+2021-01-06,Unknown (obfuscated),mobile,303,280,4,194.0
+2021-01-06,Unknown (obfuscated),tablet,12,12,0,0.0
+2021-01-06,Other,desktop,2,2,1,23.0
+2021-01-06,Other,mobile,2,1,0,0.0
+2021-01-07,Direct,desktop,1519,1388,7,587.0
+2021-01-07,Direct,mobile,1044,939,2,84.0
+2021-01-07,Direct,tablet,78,68,0,0.0
+2021-01-07,Organic Search,desktop,670,646,7,217.0
+2021-01-07,Organic Search,mobile,440,430,3,206.0
+2021-01-07,Organic Search,tablet,24,22,0,0.0
+2021-01-07,Paid Search,desktop,62,62,0,0.0
+2021-01-07,Paid Search,mobile,38,37,0,0.0
+2021-01-07,Paid Search,tablet,3,3,0,0.0
+2021-01-07,Referral,desktop,28,28,0,0.0
+2021-01-07,Referral,mobile,18,18,0,0.0
+2021-01-07,Unknown (obfuscated),desktop,405,381,5,167.0
+2021-01-07,Unknown (obfuscated),mobile,302,277,3,219.0
+2021-01-07,Unknown (obfuscated),tablet,18,17,0,0.0
+2021-01-07,Other,desktop,8,8,0,0.0
+2021-01-07,Other,mobile,2,2,0,0.0
+2021-01-07,Other,tablet,1,1,0,0.0
+2021-01-08,Direct,desktop,1354,1235,5,188.0
+2021-01-08,Direct,mobile,947,882,2,118.0
+2021-01-08,Direct,tablet,65,57,0,0.0
+2021-01-08,Organic Search,desktop,604,590,7,448.0
+2021-01-08,Organic Search,mobile,416,409,6,319.0
+2021-01-08,Organic Search,tablet,28,28,0,0.0
+2021-01-08,Paid Search,desktop,46,45,0,0.0
+2021-01-08,Paid Search,mobile,38,35,0,0.0
+2021-01-08,Paid Search,tablet,3,3,0,0.0
+2021-01-08,Referral,desktop,37,37,0,0.0
+2021-01-08,Referral,mobile,30,28,0,0.0
+2021-01-08,Referral,tablet,2,2,0,0.0
+2021-01-08,Unknown (obfuscated),desktop,404,372,9,364.0
+2021-01-08,Unknown (obfuscated),mobile,261,246,3,234.0
+2021-01-08,Unknown (obfuscated),tablet,16,15,1,0.0
+2021-01-08,Other,desktop,4,4,0,0.0
+2021-01-08,Other,mobile,7,6,0,0.0
+2021-01-09,Direct,desktop,1043,976,4,378.0
+2021-01-09,Direct,mobile,774,724,2,145.0
+2021-01-09,Direct,tablet,40,38,0,0.0
+2021-01-09,Organic Search,desktop,488,478,3,264.0
+2021-01-09,Organic Search,mobile,332,323,3,87.0
+2021-01-09,Organic Search,tablet,12,12,0,0.0
+2021-01-09,Paid Search,desktop,36,36,0,0.0
+2021-01-09,Paid Search,mobile,25,25,0,0.0
+2021-01-09,Paid Search,tablet,1,1,0,0.0
+2021-01-09,Referral,desktop,14,13,0,0.0
+2021-01-09,Referral,mobile,11,11,0,0.0
+2021-01-09,Referral,tablet,1,1,0,0.0
+2021-01-09,Unknown (obfuscated),desktop,273,260,4,276.0
+2021-01-09,Unknown (obfuscated),mobile,191,182,4,213.0
+2021-01-09,Unknown (obfuscated),tablet,11,10,0,0.0
+2021-01-09,Other,desktop,4,4,0,0.0
+2021-01-09,Other,mobile,2,2,0,0.0
+2021-01-10,Direct,desktop,942,889,3,189.0
+2021-01-10,Direct,mobile,732,691,0,0.0
+2021-01-10,Direct,tablet,39,37,0,0.0
+2021-01-10,Organic Search,desktop,443,430,4,353.0
+2021-01-10,Organic Search,mobile,285,280,4,241.0
+2021-01-10,Organic Search,tablet,16,16,0,0.0
+2021-01-10,Paid Search,desktop,43,43,0,0.0
+2021-01-10,Paid Search,mobile,32,31,0,0.0
+2021-01-10,Paid Search,tablet,3,3,0,0.0
+2021-01-10,Referral,desktop,12,12,0,0.0
+2021-01-10,Referral,mobile,17,17,0,0.0
+2021-01-10,Referral,tablet,1,1,0,0.0
+2021-01-10,Unknown (obfuscated),desktop,246,234,2,179.0
+2021-01-10,Unknown (obfuscated),mobile,183,169,2,50.0
+2021-01-10,Unknown (obfuscated),tablet,5,4,0,0.0
+2021-01-10,Other,desktop,1,1,0,0.0
+2021-01-10,Other,mobile,2,2,0,0.0
+2021-01-11,Direct,desktop,1232,1127,4,191.0
+2021-01-11,Direct,mobile,866,801,4,170.0
+2021-01-11,Direct,tablet,56,50,0,0.0
+2021-01-11,Organic Search,desktop,562,547,4,274.0
+2021-01-11,Organic Search,mobile,410,400,2,144.0
+2021-01-11,Organic Search,tablet,25,24,0,0.0
+2021-01-11,Paid Search,desktop,45,45,1,60.0
+2021-01-11,Paid Search,mobile,32,31,0,0.0
+2021-01-11,Paid Search,tablet,3,3,0,0.0
+2021-01-11,Referral,desktop,19,18,0,0.0
+2021-01-11,Referral,mobile,17,16,0,0.0
+2021-01-11,Unknown (obfuscated),desktop,379,367,9,393.0
+2021-01-11,Unknown (obfuscated),mobile,293,274,2,213.0
+2021-01-11,Unknown (obfuscated),tablet,10,10,1,13.0
+2021-01-11,Other,desktop,2,2,0,0.0
+2021-01-11,Other,mobile,2,2,0,0.0
+2021-01-12,Direct,desktop,1408,1280,8,561.0
+2021-01-12,Direct,mobile,1036,942,5,318.0
+2021-01-12,Direct,tablet,54,46,1,71.0
+2021-01-12,Organic Search,desktop,701,685,11,401.0
+2021-01-12,Organic Search,mobile,490,476,10,473.0
+2021-01-12,Organic Search,tablet,25,25,1,101.0
+2021-01-12,Paid Search,desktop,63,63,0,0.0
+2021-01-12,Paid Search,mobile,42,40,0,0.0
+2021-01-12,Paid Search,tablet,2,2,0,0.0
+2021-01-12,Referral,desktop,29,28,0,0.0
+2021-01-12,Referral,mobile,21,20,0,0.0
+2021-01-12,Referral,tablet,3,3,0,0.0
+2021-01-12,Unknown (obfuscated),desktop,475,444,8,495.0
+2021-01-12,Unknown (obfuscated),mobile,341,328,4,127.0
+2021-01-12,Unknown (obfuscated),tablet,18,17,0,0.0
+2021-01-12,Other,desktop,8,7,0,0.0
+2021-01-12,Other,mobile,4,4,0,0.0
+2021-01-12,Other,tablet,1,1,0,0.0
+2021-01-13,Direct,desktop,1409,1291,6,273.0
+2021-01-13,Direct,mobile,1030,950,3,95.0
+2021-01-13,Direct,tablet,50,45,0,0.0
+2021-01-13,Organic Search,desktop,645,624,6,326.0
+2021-01-13,Organic Search,mobile,438,424,5,349.0
+2021-01-13,Organic Search,tablet,20,20,0,0.0
+2021-01-13,Paid Search,desktop,77,75,1,24.0
+2021-01-13,Paid Search,mobile,47,46,0,0.0
+2021-01-13,Paid Search,tablet,3,3,0,0.0
+2021-01-13,Referral,desktop,41,41,1,24.0
+2021-01-13,Referral,mobile,17,16,0,0.0
+2021-01-13,Referral,tablet,3,2,0,0.0
+2021-01-13,Unknown (obfuscated),desktop,439,414,7,432.0
+2021-01-13,Unknown (obfuscated),mobile,327,308,7,335.0
+2021-01-13,Unknown (obfuscated),tablet,12,11,0,0.0
+2021-01-13,Other,desktop,9,9,0,0.0
+2021-01-13,Other,mobile,3,3,0,0.0
+2021-01-14,Direct,desktop,1366,1251,13,420.0
+2021-01-14,Direct,mobile,971,875,8,1226.0
+2021-01-14,Direct,tablet,58,50,0,0.0
+2021-01-14,Organic Search,desktop,650,632,10,512.0
+2021-01-14,Organic Search,mobile,420,409,11,365.0
+2021-01-14,Organic Search,tablet,26,25,0,0.0
+2021-01-14,Paid Search,desktop,64,63,0,0.0
+2021-01-14,Paid Search,mobile,44,44,0,0.0
+2021-01-14,Paid Search,tablet,1,1,0,0.0
+2021-01-14,Referral,desktop,24,21,1,32.0
+2021-01-14,Referral,mobile,23,22,0,0.0
+2021-01-14,Unknown (obfuscated),desktop,414,389,5,306.0
+2021-01-14,Unknown (obfuscated),mobile,277,256,6,413.0
+2021-01-14,Unknown (obfuscated),tablet,17,16,0,0.0
+2021-01-14,Other,desktop,3,3,0,0.0
+2021-01-14,Other,mobile,5,5,0,0.0
+2021-01-15,Direct,desktop,1232,1136,11,472.0
+2021-01-15,Direct,mobile,792,740,2,69.0
+2021-01-15,Direct,tablet,39,36,2,70.0
+2021-01-15,Organic Search,desktop,593,576,4,120.0
+2021-01-15,Organic Search,mobile,423,414,11,670.0
+2021-01-15,Organic Search,tablet,30,30,0,0.0
+2021-01-15,Paid Search,desktop,43,42,0,0.0
+2021-01-15,Paid Search,mobile,35,35,1,80.0
+2021-01-15,Paid Search,tablet,3,3,0,0.0
+2021-01-15,Referral,desktop,19,18,1,0.0
+2021-01-15,Referral,mobile,15,15,1,0.0
+2021-01-15,Referral,tablet,2,2,0,0.0
+2021-01-15,Unknown (obfuscated),desktop,386,359,10,385.0
+2021-01-15,Unknown (obfuscated),mobile,306,288,4,205.0
+2021-01-15,Unknown (obfuscated),tablet,10,10,0,0.0
+2021-01-15,Other,desktop,5,4,0,0.0
+2021-01-15,Other,mobile,2,2,0,0.0
+2021-01-16,Direct,desktop,1005,946,4,232.0
+2021-01-16,Direct,mobile,705,666,3,198.0
+2021-01-16,Direct,tablet,54,48,0,0.0
+2021-01-16,Organic Search,desktop,452,435,7,188.0
+2021-01-16,Organic Search,mobile,333,323,4,107.0
+2021-01-16,Organic Search,tablet,15,15,0,0.0
+2021-01-16,Paid Search,desktop,31,30,0,0.0
+2021-01-16,Paid Search,mobile,28,28,0,0.0
+2021-01-16,Paid Search,tablet,3,3,0,0.0
+2021-01-16,Referral,desktop,14,14,0,0.0
+2021-01-16,Referral,mobile,8,8,1,139.0
+2021-01-16,Unknown (obfuscated),desktop,279,261,1,91.0
+2021-01-16,Unknown (obfuscated),mobile,228,212,7,506.0
+2021-01-16,Unknown (obfuscated),tablet,14,13,0,0.0
+2021-01-16,Other,desktop,2,2,0,0.0
+2021-01-16,Other,mobile,6,6,0,0.0
+2021-01-17,Direct,desktop,985,905,1,66.0
+2021-01-17,Direct,mobile,643,590,1,69.0
+2021-01-17,Direct,tablet,34,32,0,0.0
+2021-01-17,Organic Search,desktop,456,443,7,182.0
+2021-01-17,Organic Search,mobile,288,280,1,32.0
+2021-01-17,Organic Search,tablet,16,16,0,0.0
+2021-01-17,Paid Search,desktop,41,39,0,0.0
+2021-01-17,Paid Search,mobile,27,27,0,0.0
+2021-01-17,Paid Search,tablet,3,3,0,0.0
+2021-01-17,Referral,desktop,17,16,0,0.0
+2021-01-17,Referral,mobile,14,14,0,0.0
+2021-01-17,Unknown (obfuscated),desktop,283,265,2,78.0
+2021-01-17,Unknown (obfuscated),mobile,169,164,2,54.0
+2021-01-17,Unknown (obfuscated),tablet,9,9,0,0.0
+2021-01-17,Other,desktop,3,3,0,0.0
+2021-01-18,Direct,desktop,1112,1008,2,32.0
+2021-01-18,Direct,mobile,762,696,0,0.0
+2021-01-18,Direct,tablet,45,38,0,0.0
+2021-01-18,Organic Search,desktop,565,551,3,105.0
+2021-01-18,Organic Search,mobile,392,378,7,305.0
+2021-01-18,Organic Search,tablet,18,18,0,0.0
+2021-01-18,Paid Search,desktop,57,55,0,0.0
+2021-01-18,Paid Search,mobile,28,27,0,0.0
+2021-01-18,Paid Search,tablet,1,1,0,0.0
+2021-01-18,Referral,desktop,30,29,0,0.0
+2021-01-18,Referral,mobile,14,13,0,0.0
+2021-01-18,Unknown (obfuscated),desktop,337,312,3,425.0
+2021-01-18,Unknown (obfuscated),mobile,229,217,4,356.0
+2021-01-18,Unknown (obfuscated),tablet,8,8,0,0.0
+2021-01-18,Other,desktop,8,8,0,0.0
+2021-01-18,Other,mobile,3,3,0,0.0
+2021-01-18,Other,tablet,1,1,0,0.0
+2021-01-19,Direct,desktop,1275,1166,10,428.0
+2021-01-19,Direct,mobile,918,850,9,1780.0
+2021-01-19,Direct,tablet,59,52,0,0.0
+2021-01-19,Organic Search,desktop,619,597,9,540.0
+2021-01-19,Organic Search,mobile,402,391,4,337.0
+2021-01-19,Organic Search,tablet,22,22,0,0.0
+2021-01-19,Paid Search,desktop,65,63,0,0.0
+2021-01-19,Paid Search,mobile,33,32,0,0.0
+2021-01-19,Referral,desktop,37,37,2,66.0
+2021-01-19,Referral,mobile,30,29,0,0.0
+2021-01-19,Referral,tablet,1,1,0,0.0
+2021-01-19,Unknown (obfuscated),desktop,406,388,4,158.0
+2021-01-19,Unknown (obfuscated),mobile,297,284,7,182.0
+2021-01-19,Unknown (obfuscated),tablet,19,17,4,265.0
+2021-01-19,Other,desktop,3,2,0,0.0
+2021-01-19,Other,mobile,1,1,0,0.0
+2021-01-20,Direct,desktop,1565,1417,21,1108.0
+2021-01-20,Direct,mobile,1098,999,16,1631.0
+2021-01-20,Direct,tablet,54,51,0,0.0
+2021-01-20,Organic Search,desktop,663,648,12,843.0
+2021-01-20,Organic Search,mobile,433,421,9,525.0
+2021-01-20,Organic Search,tablet,30,27,1,93.0
+2021-01-20,Paid Search,desktop,59,58,1,110.0
+2021-01-20,Paid Search,mobile,41,41,1,96.0
+2021-01-20,Paid Search,tablet,3,3,0,0.0
+2021-01-20,Referral,desktop,29,28,1,90.0
+2021-01-20,Referral,mobile,21,20,2,170.0
+2021-01-20,Unknown (obfuscated),desktop,473,430,21,1410.0
+2021-01-20,Unknown (obfuscated),mobile,318,301,12,733.0
+2021-01-20,Unknown (obfuscated),tablet,11,9,0,0.0
+2021-01-20,Other,desktop,5,3,0,0.0
+2021-01-20,Other,mobile,2,2,0,0.0
+2021-01-21,Direct,desktop,1451,1326,15,1123.0
+2021-01-21,Direct,mobile,1007,909,6,338.0
+2021-01-21,Direct,tablet,69,63,1,44.0
+2021-01-21,Organic Search,desktop,804,785,11,959.0
+2021-01-21,Organic Search,mobile,569,554,3,662.0
+2021-01-21,Organic Search,tablet,33,32,0,0.0
+2021-01-21,Paid Search,desktop,33,32,0,0.0
+2021-01-21,Paid Search,mobile,27,26,0,0.0
+2021-01-21,Referral,desktop,82,79,1,0.0
+2021-01-21,Referral,mobile,56,55,1,16.0
+2021-01-21,Referral,tablet,2,2,0,0.0
+2021-01-21,Unknown (obfuscated),desktop,307,287,10,822.0
+2021-01-21,Unknown (obfuscated),mobile,209,193,5,261.0
+2021-01-21,Unknown (obfuscated),tablet,11,10,0,0.0
+2021-01-21,Other,desktop,16,15,0,0.0
+2021-01-21,Other,mobile,11,11,0,0.0
+2021-01-22,Direct,desktop,1083,955,34,1990.0
+2021-01-22,Direct,mobile,698,617,17,915.0
+2021-01-22,Direct,tablet,35,32,1,130.0
+2021-01-22,Organic Search,desktop,1060,1043,13,691.0
+2021-01-22,Organic Search,mobile,690,677,12,611.0
+2021-01-22,Organic Search,tablet,32,31,0,0.0
+2021-01-22,Paid Search,desktop,4,4,2,94.0
+2021-01-22,Paid Search,mobile,1,1,0,0.0
+2021-01-22,Referral,desktop,129,126,1,92.0
+2021-01-22,Referral,mobile,99,94,1,38.0
+2021-01-22,Referral,tablet,4,4,0,0.0
+2021-01-22,Unknown (obfuscated),desktop,117,110,11,516.0
+2021-01-22,Unknown (obfuscated),mobile,83,80,9,544.0
+2021-01-22,Unknown (obfuscated),tablet,1,1,0,0.0
+2021-01-22,Other,desktop,31,30,0,0.0
+2021-01-22,Other,mobile,21,18,0,0.0
+2021-01-22,Other,tablet,1,1,0,0.0
+2021-01-23,Direct,desktop,794,738,12,801.0
+2021-01-23,Direct,mobile,555,497,10,488.0
+2021-01-23,Direct,tablet,23,23,1,102.0
+2021-01-23,Organic Search,desktop,759,743,8,704.0
+2021-01-23,Organic Search,mobile,555,546,5,247.0
+2021-01-23,Organic Search,tablet,37,35,1,40.0
+2021-01-23,Paid Search,desktop,1,1,0,0.0
+2021-01-23,Referral,desktop,142,139,2,43.0
+2021-01-23,Referral,mobile,96,94,0,0.0
+2021-01-23,Referral,tablet,5,5,0,0.0
+2021-01-23,Unknown (obfuscated),desktop,41,39,1,53.0
+2021-01-23,Unknown (obfuscated),mobile,36,34,1,122.0
+2021-01-23,Unknown (obfuscated),tablet,4,3,0,0.0
+2021-01-23,Other,desktop,50,42,0,0.0
+2021-01-23,Other,mobile,33,29,0,0.0
+2021-01-23,Other,tablet,1,1,0,0.0
+2021-01-24,Direct,desktop,828,751,16,1058.0
+2021-01-24,Direct,mobile,496,458,4,246.0
+2021-01-24,Direct,tablet,32,31,0,0.0
+2021-01-24,Organic Search,desktop,745,734,4,214.0
+2021-01-24,Organic Search,mobile,477,468,8,582.0
+2021-01-24,Organic Search,tablet,25,25,0,0.0
+2021-01-24,Paid Search,desktop,1,1,0,0.0
+2021-01-24,Referral,desktop,151,148,0,0.0
+2021-01-24,Referral,mobile,107,104,0,0.0
+2021-01-24,Referral,tablet,11,11,0,0.0
+2021-01-24,Unknown (obfuscated),desktop,35,35,4,439.0
+2021-01-24,Unknown (obfuscated),mobile,28,25,4,193.0
+2021-01-24,Unknown (obfuscated),tablet,2,2,0,0.0
+2021-01-24,Other,desktop,19,18,0,0.0
+2021-01-24,Other,mobile,11,9,0,0.0
+2021-01-25,Direct,desktop,933,820,12,591.0
+2021-01-25,Direct,mobile,662,562,15,583.0
+2021-01-25,Direct,tablet,31,26,1,21.0
+2021-01-25,Organic Search,desktop,992,972,11,533.0
+2021-01-25,Organic Search,mobile,643,636,5,128.0
+2021-01-25,Organic Search,tablet,43,43,0,0.0
+2021-01-25,Paid Search,desktop,2,2,0,0.0
+2021-01-25,Referral,desktop,226,219,1,44.0
+2021-01-25,Referral,mobile,140,137,0,0.0
+2021-01-25,Referral,tablet,6,5,0,0.0
+2021-01-25,Unknown (obfuscated),desktop,81,80,10,665.0
+2021-01-25,Unknown (obfuscated),mobile,50,48,4,351.0
+2021-01-25,Unknown (obfuscated),tablet,5,4,1,111.0
+2021-01-25,Other,desktop,45,43,0,0.0
+2021-01-25,Other,mobile,43,35,0,0.0
+2021-01-25,Other,tablet,4,4,0,0.0
+2021-01-26,Direct,desktop,984,840,13,256.0
+2021-01-26,Direct,mobile,701,620,13,417.0
+2021-01-26,Direct,tablet,40,33,1,0.0
+2021-01-26,Organic Search,desktop,1043,1016,6,45.0
+2021-01-26,Organic Search,mobile,685,665,7,301.0
+2021-01-26,Organic Search,tablet,40,39,0,0.0
+2021-01-26,Paid Search,desktop,2,1,0,0.0
+2021-01-26,Paid Search,mobile,1,1,0,0.0
+2021-01-26,Referral,desktop,189,183,1,38.0
+2021-01-26,Referral,mobile,116,110,0,0.0
+2021-01-26,Referral,tablet,5,5,0,0.0
+2021-01-26,Unknown (obfuscated),desktop,109,104,5,150.0
+2021-01-26,Unknown (obfuscated),mobile,60,55,5,10.0
+2021-01-26,Unknown (obfuscated),tablet,5,5,0,0.0
+2021-01-26,Other,desktop,64,54,0,0.0
+2021-01-26,Other,mobile,44,39,0,0.0
+2021-01-26,Other,tablet,1,0,0,0.0
+2021-01-27,Direct,desktop,1264,1105,11,156.0
+2021-01-27,Direct,mobile,857,740,20,214.0
+2021-01-27,Direct,tablet,52,44,1,0.0
+2021-01-27,Email,desktop,11,10,1,0.0
+2021-01-27,Email,mobile,5,5,0,0.0
+2021-01-27,Email,tablet,1,1,0,0.0
+2021-01-27,Organic Search,desktop,1098,1071,4,32.0
+2021-01-27,Organic Search,mobile,707,686,9,55.0
+2021-01-27,Organic Search,tablet,33,33,0,0.0
+2021-01-27,Paid Search,desktop,2,1,0,0.0
+2021-01-27,Referral,desktop,200,195,0,0.0
+2021-01-27,Referral,mobile,131,129,0,0.0
+2021-01-27,Referral,tablet,9,9,0,0.0
+2021-01-27,Unknown (obfuscated),desktop,100,96,4,0.0
+2021-01-27,Unknown (obfuscated),mobile,58,58,5,0.0
+2021-01-27,Unknown (obfuscated),tablet,5,5,0,0.0
+2021-01-27,Other,desktop,39,33,0,0.0
+2021-01-27,Other,mobile,25,21,0,0.0
+2021-01-27,Other,tablet,2,2,0,0.0
+2021-01-28,Direct,desktop,1095,971,15,0.0
+2021-01-28,Direct,mobile,737,647,7,19.0
+2021-01-28,Direct,tablet,26,25,1,0.0
+2021-01-28,Email,desktop,35,34,2,78.0
+2021-01-28,Email,mobile,27,27,1,0.0
+2021-01-28,Email,tablet,1,1,0,0.0
+2021-01-28,Organic Search,desktop,1026,1000,6,27.0
+2021-01-28,Organic Search,mobile,695,677,22,0.0
+2021-01-28,Organic Search,tablet,34,34,0,0.0
+2021-01-28,Paid Search,mobile,2,2,0,0.0
+2021-01-28,Referral,desktop,182,177,1,0.0
+2021-01-28,Referral,mobile,132,130,0,0.0
+2021-01-28,Referral,tablet,10,10,0,0.0
+2021-01-28,Unknown (obfuscated),desktop,76,69,3,0.0
+2021-01-28,Unknown (obfuscated),mobile,72,69,9,4.0
+2021-01-28,Unknown (obfuscated),tablet,4,3,1,0.0
+2021-01-28,Other,desktop,44,40,0,0.0
+2021-01-28,Other,mobile,18,15,0,0.0
+2021-01-29,Direct,desktop,938,825,7,70.0
+2021-01-29,Direct,mobile,650,579,11,30.0
+2021-01-29,Direct,tablet,39,36,1,0.0
+2021-01-29,Email,desktop,13,13,0,0.0
+2021-01-29,Email,mobile,5,5,0,0.0
+2021-01-29,Email,tablet,1,1,0,0.0
+2021-01-29,Organic Search,desktop,946,929,12,48.0
+2021-01-29,Organic Search,mobile,660,644,6,33.0
+2021-01-29,Organic Search,tablet,39,38,1,0.0
+2021-01-29,Paid Search,desktop,3,3,0,0.0
+2021-01-29,Paid Search,mobile,1,1,0,0.0
+2021-01-29,Referral,desktop,161,158,3,0.0
+2021-01-29,Referral,mobile,106,104,2,4.0
+2021-01-29,Referral,tablet,4,4,0,0.0
+2021-01-29,Unknown (obfuscated),desktop,100,98,8,5.0
+2021-01-29,Unknown (obfuscated),mobile,51,50,4,0.0
+2021-01-29,Unknown (obfuscated),tablet,5,4,1,0.0
+2021-01-29,Other,desktop,43,36,0,0.0
+2021-01-29,Other,mobile,26,24,0,0.0
+2021-01-30,Direct,desktop,801,723,8,0.0
+2021-01-30,Direct,mobile,541,487,4,70.0
+2021-01-30,Direct,tablet,33,30,0,0.0
+2021-01-30,Email,desktop,1,1,0,0.0
+2021-01-30,Email,mobile,3,3,0,0.0
+2021-01-30,Organic Search,desktop,701,692,8,33.0
+2021-01-30,Organic Search,mobile,480,470,3,56.0
+2021-01-30,Organic Search,tablet,27,25,0,0.0
+2021-01-30,Paid Search,desktop,1,1,0,0.0
+2021-01-30,Referral,desktop,119,117,0,0.0
+2021-01-30,Referral,mobile,101,97,1,0.0
+2021-01-30,Referral,tablet,4,3,0,0.0
+2021-01-30,Unknown (obfuscated),desktop,35,33,2,0.0
+2021-01-30,Unknown (obfuscated),mobile,22,22,3,0.0
+2021-01-30,Unknown (obfuscated),tablet,3,2,0,0.0
+2021-01-30,Other,desktop,17,10,0,0.0
+2021-01-30,Other,mobile,9,6,0,0.0
+2021-01-30,Other,tablet,2,1,0,0.0
+2021-01-31,Direct,desktop,792,714,4,0.0
+2021-01-31,Direct,mobile,570,510,2,0.0
+2021-01-31,Direct,tablet,37,35,1,0.0
+2021-01-31,Email,desktop,2,2,0,0.0
+2021-01-31,Email,mobile,3,3,0,0.0
+2021-01-31,Organic Search,desktop,674,667,3,0.0
+2021-01-31,Organic Search,mobile,450,440,4,0.0
+2021-01-31,Organic Search,tablet,31,31,0,0.0
+2021-01-31,Paid Search,desktop,4,4,0,0.0
+2021-01-31,Referral,desktop,117,115,0,0.0
+2021-01-31,Referral,mobile,85,80,0,0.0
+2021-01-31,Referral,tablet,4,3,0,0.0
+2021-01-31,Unknown (obfuscated),desktop,30,29,4,0.0
+2021-01-31,Unknown (obfuscated),mobile,28,28,1,0.0
+2021-01-31,Other,desktop,6,4,0,0.0
+2021-01-31,Other,mobile,6,5,0,0.0
+2021-01-31,Other,tablet,2,1,0,0.0
