@@ -8,7 +8,7 @@ It runs on Google's **public, obfuscated GA4 export of the Google Merchandise St
 (`bigquery-public-data.ga4_obfuscated_sample_ecommerce`, Nov 2020 – Jan 2021), so anyone
 can reproduce it. No client data is used.
 
-**Live dashboard:** `dashboard/index.html` *(link to the GitHub Pages version goes here once published)*
+**Live dashboard:** https://obodnazar.github.io/ga4-bigquery-marketing-analytics/
 
 ## The problem it solves
 
